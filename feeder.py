@@ -46,14 +46,26 @@ def extract_direct_url(raw_url: str):
     if "youtube.com" in raw_url or "youtu.be" in raw_url or len(raw_url) == 11:
         return None
     
-    match = re.search(r"[?&]watch=([a-f0-9]+)", raw_url)
+    # 1. Videos ke liye ?watch= aur PDFs ke liye ?dl= dono ko extract karein
+    match = re.search(r"[?&](?:watch|dl)=([a-f0-9]+)", raw_url)
     if match:
         file_id = match.group(1)
+        return f"https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/{file_id}"
+    
+    # 2. Agar pehle se direct Heroku link ho
+    if "herokuapp.com/dl/" in raw_url:
+        return raw_url
+
+    # 3. Agar 24-character hex ID url path me ho
+    match_hex = re.search(r"/([a-f0-9]{24})(?:[/?#]|$)", raw_url)
+    if match_hex:
+        file_id = match_hex.group(1)
         return f"https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/{file_id}"
     
     if raw_url.startswith("http"):
         return raw_url
     return None
+
 
 def load_completed_local():
     if os.path.exists(COMPLETED_FILE):
