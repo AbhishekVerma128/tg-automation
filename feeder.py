@@ -2,6 +2,8 @@ import asyncio
 import json
 import os
 import re
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
 from pyrogram import Client
 from pyrogram.types import Message
 
@@ -9,17 +11,26 @@ from pyrogram.types import Message
 API_ID = 30029090
 API_HASH = "814108c4c350f0fbf4925e3928d3fdb0"
 
-# Apne URL Uploader bot ka username yahan dalein (bina @ ke ya @ ke sath)
-BOT_USERNAME = "@Notescarrier_url_upload_bot"  # e.g. "my_url_uploader_bot"
+BOT_USERNAME = "@Notescarrier_url_upload_bot"
 JSON_FILE = "parmar4.0.json"
 COMPLETED_FILE = "completed.json"
 # =================================================
 
+class HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Feeder service is alive!")
+
+    def log_message(self, format, *args):
+        pass
+
+def start_dummy_server():
+    port = int(os.environ.get("PORT", 8080))
+    server = HTTPServer(("0.0.0.0", port), HealthHandler)
+    server.serve_forever()
+
 def extract_direct_url(raw_url: str):
-    """
-    Blogspot watch URL se Heroku ka direct media URL extract karta hai.
-    YouTube links ko skip karne ke liye None return karta hai.
-    """
     if "youtube.com" in raw_url or "youtu.be" in raw_url or len(raw_url) == 11:
         return None
     
@@ -46,7 +57,6 @@ def save_completed(completed_set):
         json.dump(list(completed_set), f, indent=2, ensure_ascii=False)
 
 async def main():
-    # Local session file 'feeder_session' banegi, Render ke session se clash nahi hogi
     app = Client(
         "feeder_session",
         api_id=API_ID,
@@ -57,7 +67,7 @@ async def main():
     print(f"📦 Total pehle se completed: {len(completed)}")
 
     if not os.path.exists(JSON_FILE):
-        print(f"❌ Error: {JSON_FILE} nahi mila! Usi folder me rakhein jahan ye script hai.")
+        print(f"❌ Error: {JSON_FILE} nahi mila! Usi folder me rakhein.")
         return
 
     with open(JSON_FILE, "r", encoding="utf-8") as f:
@@ -94,15 +104,13 @@ async def main():
                 clean_title = re.sub(r'[\\/*?:"<>|]', "", f"{subj_name} - {title}")
                 msg_text = f"{direct_url} | {clean_title}"
 
-                # 1. Bot ko URL | Title bhejte hain
                 sent_msg = await app.send_message(chat_id=bot.id, text=msg_text)
                 print(f"✅ Message sent to bot! (Message ID: {sent_msg.id})")
                 print("⏳ Waiting for bot to download, convert and upload...")
 
-                # 2. Wait karein jab tak bot video/document bhej na de
                 finished = False
                 wait_seconds = 0
-                max_wait = 1800  # 30 minute timeout
+                max_wait = 1800
 
                 while not finished and wait_seconds < max_wait:
                     await asyncio.sleep(5)
@@ -110,7 +118,6 @@ async def main():
 
                     async for reply in app.get_chat_history(chat_id=bot.id, limit=5):
                         if reply.id > sent_msg.id:
-                            # Bot ne document ya video bheja
                             if reply.video or reply.document:
                                 print(f"🎉 Upload successful! [Msg ID: {reply.id}]")
                                 completed.add(item_key)
@@ -118,7 +125,6 @@ async def main():
                                 finished = True
                                 break
                             
-                            # Bot ne error report kiya
                             text_lower = (reply.text or reply.caption or "").lower()
                             if "error" in text_lower or "failed" in text_lower:
                                 print(f"❌ Bot reported error: {reply.text or reply.caption}")
@@ -134,13 +140,6 @@ async def main():
                 await asyncio.sleep(3)
 
         print("\n🎊 Sabhi lectures process ho chuke hain!")
-        
-
-def start_dummy_server():
-    port = int(os.environ.get("PORT", 8080))
-    server = HTTPServer(("0.0.0.0", port), HealthHandler)
-    server.serve_forever()
-
 
 if __name__ == "__main__":
     threading.Thread(target=start_dummy_server, daemon=True).start()
