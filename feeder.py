@@ -30,6 +30,16 @@ def start_dummy_server():
     server = HTTPServer(("0.0.0.0", port), HealthHandler)
     server.serve_forever()
 
+def normalize_name(name: str):
+    """Names ko match karne ke liye clean aur lowercase karta hai."""
+    if not name:
+        return ""
+    # Extension (.mp4, .pdf etc) hatao
+    name = re.sub(r'\.(mp4|pdf|mkv|webm)$', '', name, flags=re.IGNORECASE)
+    # Special characters hatao
+    name = re.sub(r'[^a-zA-Z0-9]', '', name)
+    return name.lower().strip()
+
 def extract_direct_url(raw_url: str):
     if not raw_url:
         return None
@@ -61,59 +71,76 @@ def save_completed_local(completed_set):
     except Exception:
         pass
 
-async def sync_completed_from_telegram(app: Client):
-    """Render restart ke baad Telegram Saved Messages se progress recover karta hai."""
-    cloud_completed = set()
-    print("🔄 Telegram Saved Messages se completed history sync ho rahi hai...")
+async def scan_existing_uploads_from_bot(app: Client, bot_id: int):
+    """Bot ke chat history se pehle se uploaded saari files detect karta hai."""
+    found_names = set()
+    print("🔍 Bot ke chat se purani uploaded files scan ho rahi hain...")
     try:
-        async for msg in app.get_chat_history("me", limit=1500):
+        count = 0
+        async for msg in app.get_chat_history(bot_id, limit=3000):
+            count += 1
+            # 1. Bot ne jo document ya video send ki hai
+            if msg.document and msg.document.file_name:
+                found_names.add(normalize_name(msg.document.file_name))
+            elif msg.video and msg.video.file_name:
+                found_names.add(normalize_name(msg.video.file_name))
+            
+            # 2. Jo 'URL | Title' message aapne bot ko bheja tha
+            if msg.from_user and msg.from_user.is_self and msg.text and "|" in msg.text:
+                parts = msg.text.split("|", 1)
+                if len(parts) == 2:
+                    found_names.add(normalize_name(parts[1].strip()))
+
+        print(f"✅ Bot chat scan complete ({count} messages checked). Total {len(found_names)} purani files identify hui!")
+    except Exception as e:
+        print(f"⚠️ Bot chat scan error: {e}")
+    return found_names
+
+async def sync_completed_from_saved_messages(app: Client):
+    cloud_completed = set()
+    try:
+        async for msg in app.get_chat_history("me", limit=1000):
             text = msg.text or ""
             if text.startswith("#FEEDER_DONE:"):
                 key = text.replace("#FEEDER_DONE:", "", 1).strip()
                 if key:
-                    cloud_completed.add(key)
-        print(f"✅ Telegram se {len(cloud_completed)} completed items restore ho gaye!")
-    except Exception as e:
-        print(f"⚠️ Telegram history sync error: {e}")
+                    cloud_completed.add(normalize_name(key))
+    except Exception:
+        pass
     return cloud_completed
 
 def get_all_tasks(data: dict):
-    """Lectures (Videos) aur Notes (PDFs) dono ko ek list me nikaalta hai."""
     tasks = []
 
     # 1. Format: parmar4.0.json (lectures + notes)
     if "lectures" in data or "notes" in data:
-        # Videos
         for subject in data.get("lectures", []):
             subj_name = subject.get("n", "General")
             for item in subject.get("i", []):
-                title, raw_link, link_type = item[0], item[1], item[2]
                 tasks.append({
                     "topic": subj_name,
-                    "title": title,
-                    "url": raw_link,
+                    "title": item[0],
+                    "url": item[1],
                     "type": "video",
-                    "link_type": link_type
+                    "link_type": item[2]
                 })
-        # Notes (PDFs)
+
         for subject in data.get("notes", []):
             subj_name = subject.get("n", "General")
             for item in subject.get("i", []):
-                title, raw_link = item[0], item[1]
-                link_type = item[2] if len(item) > 2 else "d"
-                # Notes ke title me agar .mp4 ho toh use .pdf me convert karein
+                title = item[0]
                 clean_t = re.sub(r'\.mp4$', '', title, flags=re.IGNORECASE).strip()
                 if not clean_t.lower().endswith(".pdf"):
                     clean_t += ".pdf"
                 tasks.append({
                     "topic": subj_name,
                     "title": clean_t,
-                    "url": raw_link,
+                    "url": item[1],
                     "type": "pdf",
-                    "link_type": link_type
+                    "link_type": item[2] if len(item) > 2 else "d"
                 })
 
-    # 2. Format: parmar_maths_organized.json (chapters -> videos, pdfs)
+    # 2. Format: parmar_maths_organized.json
     elif "chapters" in data:
         for ch in data.get("chapters", []):
             subj_name = ch.get("topic", "General")
@@ -158,24 +185,30 @@ async def main():
     print(f"📋 Total items (Videos + PDFs) JSON me: {len(tasks)}")
 
     async with app:
-        # Crash/Restart safety: Telegram se completed list uthao
-        completed = load_completed_local()
-        telegram_completed = await sync_completed_from_telegram(app)
-        completed.update(telegram_completed)
-        save_completed_local(completed)
-
-        print(f"📦 Total pehle se completed: {len(completed)}")
-
         bot = await app.get_users(BOT_USERNAME)
         print(f"🤖 Connected to Bot: @{bot.username} ({bot.first_name}) [ID: {bot.id}]")
+
+        # 1. Bot ke chat history se purani uploaded files load karo
+        bot_uploaded = await scan_existing_uploads_from_bot(app, bot.id)
+        
+        # 2. Saved Messages aur local cache load karo
+        saved_msg_done = await sync_completed_from_saved_messages(app)
+        local_done = {normalize_name(x) for x in load_completed_local()}
+
+        # Sabko combine karke ek master completed set banao
+        master_completed = bot_uploaded | saved_msg_done | local_done
+        print(f"📦 Total pehle se uploaded files jo skip hongi: {len(master_completed)}")
 
         for task in tasks:
             subj_name = task["topic"]
             title = task["title"]
-            item_type = task["type"]  # "video" ya "pdf"
+            item_type = task["type"]
             item_key = f"{subj_name} - {title}"
 
-            if item_key in completed:
+            # Smart match: title ya full key match ho toh skip
+            norm_key = normalize_name(item_key)
+            norm_title = normalize_name(title)
+            if norm_key in master_completed or norm_title in master_completed:
                 continue
 
             if task["link_type"] == "y":
@@ -213,13 +246,16 @@ async def main():
                     if reply.id > sent_msg.id:
                         if reply.video or reply.document:
                             print(f"🎉 Upload successful! [Msg ID: {reply.id}]")
-                            completed.add(item_key)
-                            save_completed_local(completed)
-                            # Telegram Saved Messages me permanently save karein
+                            master_completed.add(norm_key)
+                            master_completed.add(norm_title)
+                            
+                            # Local and Telegram backup
+                            save_completed_local(master_completed)
                             try:
-                                await app.send_message("me", f"#FEEDER_DONE: {item_key}")
-                            except Exception as e:
-                                print(f"⚠️ Could not save to Saved Messages: {e}")
+                                await app.send_message("me", f"#FEEDER_DONE: {clean_title}")
+                            except Exception:
+                                pass
+                                
                             finished = True
                             break
                         
