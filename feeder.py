@@ -134,6 +134,14 @@ async def main():
                 await asyncio.sleep(3)
 
         print("\n🎊 Sabhi lectures process ho chuke hain!")
+        
+
+def start_dummy_server():
+    port = int(os.environ.get("PORT", 8080))
+    server = HTTPServer(("0.0.0.0", port), HealthHandler)
+    server.serve_forever()
+
 
 if __name__ == "__main__":
+    threading.Thread(target=start_dummy_server, daemon=True).start()
     asyncio.run(main())
