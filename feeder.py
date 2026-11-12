@@ -12,8 +12,12 @@ API_ID = 30029090
 API_HASH = "814108c4c350f0fbf4925e3928d3fdb0"
 
 BOT_USERNAME = "@Notescarrier_url_upload_bot"
-JSON_FILE = "parmar4.0.json"
+JSON_FILE = "nirman2026.json"
 COMPLETED_FILE = "completed.json"
+
+# Process filters: Dono True rakhein to Videos aur PDFs dono process honge
+PROCESS_VIDEOS = True
+PROCESS_PDFS = True
 # =================================================
 
 class HealthHandler(BaseHTTPRequestHandler):
@@ -31,14 +35,16 @@ def start_dummy_server():
     server.serve_forever()
 
 def normalize_name(name: str):
-    """Names ko match karne ke liye clean aur lowercase karta hai."""
+    """
+    Names ko match karne ke liye clean aur lowercase karta hai.
+    Video aur PDF ka base name same hone par collision se bachne ke liye type tag lagata hai.
+    """
     if not name:
         return ""
-    # Extension (.mp4, .pdf etc) hatao
+    is_pdf = bool(re.search(r'\.pdf$', name, flags=re.IGNORECASE))
     name = re.sub(r'\.(mp4|pdf|mkv|webm)$', '', name, flags=re.IGNORECASE)
-    # Special characters hatao
-    name = re.sub(r'[^a-zA-Z0-9]', '', name)
-    return name.lower().strip()
+    name = re.sub(r'[^a-zA-Z0-9]', '', name).lower().strip()
+    return f"{name}_pdf" if is_pdf else f"{name}_vid"
 
 def extract_direct_url(raw_url: str):
     if not raw_url:
@@ -65,7 +71,6 @@ def extract_direct_url(raw_url: str):
     if raw_url.startswith("http"):
         return raw_url
     return None
-
 
 def load_completed_local():
     if os.path.exists(COMPLETED_FILE):
@@ -124,8 +129,39 @@ async def sync_completed_from_saved_messages(app: Client):
 def get_all_tasks(data: dict):
     tasks = []
 
-    # 1. Format: parmar4.0.json (lectures + notes)
-    if "lectures" in data or "notes" in data:
+    # 1. Format: nirman2026.json (subjects -> lectures with videoUrl & pdfUrl)
+    if "subjects" in data:
+        for subject in data.get("subjects", []):
+            subj_name = subject.get("name", "General")
+            for l in subject.get("lectures", []):
+                # Video item
+                if PROCESS_VIDEOS and l.get("videoUrl"):
+                    v_title = l.get("title", "").strip()
+                    v_clean = re.sub(r'\.pdf$', '', v_title, flags=re.IGNORECASE).strip()
+                    tasks.append({
+                        "topic": subj_name,
+                        "title": v_clean,
+                        "url": l.get("videoUrl"),
+                        "type": "video",
+                        "link_type": "d"
+                    })
+
+                # PDF item
+                if PROCESS_PDFS and l.get("pdfUrl"):
+                    p_title = l.get("pdfTitle") or l.get("title", "").strip()
+                    clean_p = re.sub(r'\.mp4$', '', p_title, flags=re.IGNORECASE).strip()
+                    clean_p = re.sub(r'[\s._-]+pdf$', '', clean_p, flags=re.IGNORECASE).strip()
+                    clean_p += ".pdf"
+                    tasks.append({
+                        "topic": subj_name,
+                        "title": clean_p,
+                        "url": l.get("pdfUrl"),
+                        "type": "pdf",
+                        "link_type": "d"
+                    })
+
+    # 2. Format: parmar4.0.json (lectures + notes)
+    elif "lectures" in data or "notes" in data:
         for subject in data.get("lectures", []):
             subj_name = subject.get("n", "General")
             for item in subject.get("i", []):
@@ -152,7 +188,7 @@ def get_all_tasks(data: dict):
                     "link_type": item[2] if len(item) > 2 else "d"
                 })
 
-    # 2. Format: parmar_maths_organized.json
+    # 3. Format: parmar_maths_organized.json
     elif "chapters" in data:
         for ch in data.get("chapters", []):
             subj_name = ch.get("topic", "General")
@@ -194,7 +230,9 @@ async def main():
         data = json.load(f)
 
     tasks = get_all_tasks(data)
-    print(f"📋 Total items (Videos + PDFs) JSON me: {len(tasks)}")
+    total_videos = sum(1 for t in tasks if t["type"] == "video")
+    total_pdfs = sum(1 for t in tasks if t["type"] == "pdf")
+    print(f"📋 Total items JSON me: {len(tasks)} (Videos: {total_videos}, PDFs: {total_pdfs})")
 
     async with app:
         bot = await app.get_users(BOT_USERNAME)
