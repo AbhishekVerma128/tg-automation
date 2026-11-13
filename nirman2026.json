@@ -1,1226 +1,2164 @@
 {
-  "id": "nirman-batch-2026",
-  "title": "Nirman Batch 2026",
-  "instructor": "Neeraj Sir",
+  "id": "parmar-maths-revision-vod",
+  "title": "Parmar Maths Revision VOD",
+  "instructor": "Parmar Sir",
   "priceInr": 29,
-  "description": "Complete Science Batch by Neeraj Sir covering Biology, Physics, and Chemistry with recorded lectures and class notes PDFs.",
+  "description": "PARMAR Maths Revision VOD — chapter-wise revision lectures and PDFs.",
   "subjects": [
     {
-      "id": "biology",
-      "name": "Biology",
-      "lectureCount": 67,
-      "videoCount": 66,
-      "pdfCount": 67,
+      "id": "strategy-all-chapters",
+      "name": "Strategy - All Chapters",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 2,
       "lectures": [
         {
-          "id": "biology-1",
+          "id": "strategy-all-chapters-1",
           "lectureNo": 1,
-          "title": "Science Introduction",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f674ae8d21ba0f29aa660",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6753e8d21ba0f29aa662",
-          "pdfTitle": "Home Science Introduction Nirman Batch INtro 2026 - NEW"
+          "title": "Preparation strategy for SSC CGL Tier 2 2025 2025-09-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e0539070bf4fe858b90f1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e0552070bf4fe858b90f5",
+          "pdfTitle": "Preparation strategy for SSC CGL Tier 2 2025 2025-09-28 Bhumi PDF"
         },
         {
-          "id": "biology-2",
+          "id": "strategy-all-chapters-2",
           "lectureNo": 2,
-          "title": "Nutrition Class-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f676de8d21ba0f29aa666",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f677ae8d21ba0f29aa668",
-          "pdfTitle": "Home Biology Nutrition Class-1 new 04-01-2026 PDF"
-        },
-        {
-          "id": "biology-3",
-          "lectureNo": 3,
-          "title": "Nutrition Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6785e8d21ba0f29aa66a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f678fe8d21ba0f29aa66c",
-          "pdfTitle": "Home Biology Nutrition Class-2 Nirman 2026 07-01-2026 PDF"
-        },
-        {
-          "id": "biology-4",
-          "lectureNo": 4,
-          "title": "Nutrition Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6799e8d21ba0f29aa66e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67a4e8d21ba0f29aa670",
-          "pdfTitle": "Nutrition Part-3 PDF"
-        },
-        {
-          "id": "biology-5",
-          "lectureNo": 5,
-          "title": "Nutrition Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67b2e8d21ba0f29aa672",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67bee8d21ba0f29aa674",
-          "pdfTitle": "Home Biology Nutrition Class-4 Nirman 2026 09-01-2026 PDF"
-        },
-        {
-          "id": "biology-6",
-          "lectureNo": 6,
-          "title": "Nutrition Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67c8e8d21ba0f29aa676",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67d0e8d21ba0f29aa678",
-          "pdfTitle": "Home Biology Nutrition Class-5 Nirman 2026 12-01-2026 PDF"
-        },
-        {
-          "id": "biology-7",
-          "lectureNo": 7,
-          "title": "Nutrition Part-06",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67dbe8d21ba0f29aa67a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67e7e8d21ba0f29aa67c",
-          "pdfTitle": "Home Biology Nutrition Class-6 Nirman 2026 13-01-2026 PDF"
-        },
-        {
-          "id": "biology-8",
-          "lectureNo": 8,
-          "title": "Digestive system Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67f1e8d21ba0f29aa67e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f67fce8d21ba0f29aa680",
-          "pdfTitle": "Home Biology Digestive System Part-1 15-01-2026 PDF"
-        },
-        {
-          "id": "biology-9",
-          "lectureNo": 9,
-          "title": "Digestive system Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6805e8d21ba0f29aa682",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6810e8d21ba0f29aa684",
-          "pdfTitle": "Home Biology Digestive System Nirman part 2 2026 19-01-2026"
-        },
-        {
-          "id": "biology-10",
-          "lectureNo": 10,
-          "title": "Digestive system Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f681ce8d21ba0f29aa686",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6826e8d21ba0f29aa688",
-          "pdfTitle": "Home Biology Digestive System Nirman part 3 2026 19-01-2026"
-        },
-        {
-          "id": "biology-11",
-          "lectureNo": 11,
-          "title": "Blood Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6832e8d21ba0f29aa68a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f683de8d21ba0f29aa68c",
-          "pdfTitle": "Home Biology Blood Nirman Part-1 2026 20-01-2026 PDF"
-        },
-        {
-          "id": "biology-12",
-          "lectureNo": 12,
-          "title": "Blood Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6846e8d21ba0f29aa68e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6853e8d21ba0f29aa690",
-          "pdfTitle": "Home Biology Blood Part 2 Nirman 2026 21-01-2026 PDF"
-        },
-        {
-          "id": "biology-13",
-          "lectureNo": 13,
-          "title": "Circulatory system Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f685de8d21ba0f29aa692",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6868e8d21ba0f29aa694",
-          "pdfTitle": "Home Biology Circulatory system Part-1 Nirman 2026"
-        },
-        {
-          "id": "biology-14",
-          "lectureNo": 14,
-          "title": "Circulatory system Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6876e8d21ba0f29aa696",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6881e8d21ba0f29aa698",
-          "pdfTitle": "Home Biology Circulatory system Part 2 Nirman 2026"
-        },
-        {
-          "id": "biology-15",
-          "lectureNo": 15,
-          "title": "Circulatory system Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f688ae8d21ba0f29aa69a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6894e8d21ba0f29aa69c",
-          "pdfTitle": "Home Biology Circulatory system Part 3 Nirman 2026"
-        },
-        {
-          "id": "biology-16",
-          "lectureNo": 16,
-          "title": "Skeletal System Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f689de8d21ba0f29aa69e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68aae8d21ba0f29aa6a0",
-          "pdfTitle": "Home Biology Skeletal System Part-1 2025-04-07 PDF"
-        },
-        {
-          "id": "biology-17",
-          "lectureNo": 17,
-          "title": "Skeletal System Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68b5e8d21ba0f29aa6a2",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68c0e8d21ba0f29aa6a4",
-          "pdfTitle": "Home Biology Skeletal System Nirman - Part 2 2025-04-08 PDF"
-        },
-        {
-          "id": "biology-18",
-          "lectureNo": 18,
-          "title": "Skeletal System Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68cae8d21ba0f29aa6a6",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68d4e8d21ba0f29aa6a8",
-          "pdfTitle": "Home Biology Skeletal System Nirman - Part 3 2025-04-10 PDF"
-        },
-        {
-          "id": "biology-19",
-          "lectureNo": 19,
-          "title": "Excretory System Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68e0e8d21ba0f29aa6aa",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68f0e8d21ba0f29aa6ac",
-          "pdfTitle": "Home Biology Excretory System Part-1 Nirman 2026 27-01-2026"
-        },
-        {
-          "id": "biology-20",
-          "lectureNo": 20,
-          "title": "Excretory System Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f68fbe8d21ba0f29aa6ae",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6905e8d21ba0f29aa6b0",
-          "pdfTitle": "Home Biology Excretory System Nirman Part 2 2026 28-01-2026"
-        },
-        {
-          "id": "biology-21",
-          "lectureNo": 21,
-          "title": "Excretory System Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f690fe8d21ba0f29aa6b2",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6919e8d21ba0f29aa6b4",
-          "pdfTitle": "Home Biology Excretory System Nirman Part 3 2026 29-01-2026"
-        },
-        {
-          "id": "biology-22",
-          "lectureNo": 22,
-          "title": "Nervous System Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6924e8d21ba0f29aa6b6",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f692de8d21ba0f29aa6b8",
-          "pdfTitle": "Home Biology Nervous System part-1 30-01-2026 PDF"
-        },
-        {
-          "id": "biology-23",
-          "lectureNo": 23,
-          "title": "Nervous System Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6938e8d21ba0f29aa6ba",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6943e8d21ba0f29aa6bc",
-          "pdfTitle": "Home Biology Nervous System Part 2 Nirman 2026 02-02-2026"
-        },
-        {
-          "id": "biology-24",
-          "lectureNo": 24,
-          "title": "Nervous System Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f694ce8d21ba0f29aa6be",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f695be8d21ba0f29aa6c0",
-          "pdfTitle": "Home Biology Nervous System Part 3 Nirman 2026 03-02-2026"
-        },
-        {
-          "id": "biology-25",
-          "lectureNo": 25,
-          "title": "Endocrine system Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6969e8d21ba0f29aa6c2",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6973e8d21ba0f29aa6c4",
-          "pdfTitle": "Home Biology Endocrine System part-1 04-02-2026 PDF"
-        },
-        {
-          "id": "biology-26",
-          "lectureNo": 26,
-          "title": "Endocrine system Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f697fe8d21ba0f29aa6c6",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f698be8d21ba0f29aa6c8",
-          "pdfTitle": "Home Biology Endocrine System Nirman 2026 Part 2 05-02-2026"
-        },
-        {
-          "id": "biology-27",
-          "lectureNo": 27,
-          "title": "Endocrine system Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6998e8d21ba0f29aa6ca",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69a6e8d21ba0f29aa6cc",
-          "pdfTitle": "Home Biology Endocrine System Nirman 2026 Part 3 06-02-2026"
-        },
-        {
-          "id": "biology-28",
-          "lectureNo": 28,
-          "title": "Endocrine system Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69b4e8d21ba0f29aa6ce",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69c2e8d21ba0f29aa6d0",
-          "pdfTitle": "Home Biology Endocrine System Nirman 2026 Part 4 06-02-2026"
-        },
-        {
-          "id": "biology-29",
-          "lectureNo": 29,
-          "title": "Respiratory System Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69cce8d21ba0f29aa6d2",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69d7e8d21ba0f29aa6d4",
-          "pdfTitle": "Home Biology Respiratory system Nirman 2026 09-02-2026 PDF"
-        },
-        {
-          "id": "biology-30",
-          "lectureNo": 30,
-          "title": "Respiratory System Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69e3e8d21ba0f29aa6d6",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69f1e8d21ba0f29aa6d8",
-          "pdfTitle": "Home Biology Respiratory system Nirman Part 2 2026"
-        },
-        {
-          "id": "biology-31",
-          "lectureNo": 31,
-          "title": "Respiratory System Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f69fce8d21ba0f29aa6da",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a08e8d21ba0f29aa6dc",
-          "pdfTitle": "Home Biology Respiratory system Nirman Part 3 11-02-2026 PDF"
-        },
-        {
-          "id": "biology-32",
-          "lectureNo": 32,
-          "title": "Cell Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a12e8d21ba0f29aa6de",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a1ee8d21ba0f29aa6e0",
-          "pdfTitle": "Home Biology Cell Part-1 2026 Nirman 12-02-2026 PDF"
-        },
-        {
-          "id": "biology-33",
-          "lectureNo": 33,
-          "title": "Cell Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a2ce8d21ba0f29aa6e2",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a38e8d21ba0f29aa6e4",
-          "pdfTitle": "Home Biology Cell 2026 Nirman Part 2 13-02-2026 PDF"
-        },
-        {
-          "id": "biology-34",
-          "lectureNo": 34,
-          "title": "Cell Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a41e8d21ba0f29aa6e6",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a4ce8d21ba0f29aa6e8",
-          "pdfTitle": "Home Biology Cell 2026 Nirman Part 3 17-02-2026 PDF"
-        },
-        {
-          "id": "biology-35",
-          "lectureNo": 35,
-          "title": "Cell Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a59e8d21ba0f29aa6ea",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a65e8d21ba0f29aa6ec",
-          "pdfTitle": "Home Biology Cell 2026 Nirman Part 4 19-02-2026 PDF"
-        },
-        {
-          "id": "biology-36",
-          "lectureNo": 36,
-          "title": "Cell Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a71e8d21ba0f29aa6ee",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a7ee8d21ba0f29aa6f0",
-          "pdfTitle": "Home Biology Cell 2026 Nirman Part 5 19-02-2026 PDF"
-        },
-        {
-          "id": "biology-37",
-          "lectureNo": 37,
-          "title": "Cell Part-06",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a8ae8d21ba0f29aa6f2",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a93e8d21ba0f29aa6f4",
-          "pdfTitle": "Home Biology Cell 2026 Nirman Part 6 20-02-2026 PDF"
-        },
-        {
-          "id": "biology-38",
-          "lectureNo": 38,
-          "title": "Cell Part-07",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6a9de8d21ba0f29aa6f6",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6aa9e8d21ba0f29aa6f8",
-          "pdfTitle": "Home Biology Cell 2026 Nirman Part 7 20-02-2026 PDF"
-        },
-        {
-          "id": "biology-39",
-          "lectureNo": 39,
-          "title": "Tissue Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ab6e8d21ba0f29aa6fa",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ac1e8d21ba0f29aa6fc",
-          "pdfTitle": "Home Biology Tissue Part-1 23-02-2026 PDF"
-        },
-        {
-          "id": "biology-40",
-          "lectureNo": 40,
-          "title": "Tissue Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6acfe8d21ba0f29aa6fe",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6adfe8d21ba0f29aa700",
-          "pdfTitle": "Home Biology Tissue Nirman 2026 Part 2 24-02-2026 PDF"
-        },
-        {
-          "id": "biology-41",
-          "lectureNo": 41,
-          "title": "Tissue Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6aeae8d21ba0f29aa702",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6af5e8d21ba0f29aa704",
-          "pdfTitle": "Home Biology Tissue Nirman 2026 Part 3 25-02-2026 PDF"
-        },
-        {
-          "id": "biology-42",
-          "lectureNo": 42,
-          "title": "Tissue Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b02e8d21ba0f29aa706",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b0be8d21ba0f29aa708",
-          "pdfTitle": "Home Biology Tissue Nirman 2026 Part 4 26-02-2026 PDF"
-        },
-        {
-          "id": "biology-43",
-          "lectureNo": 43,
-          "title": "Tissue Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b19e8d21ba0f29aa70a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b28e8d21ba0f29aa70c",
-          "pdfTitle": "Home Biology Tissue Nirman 2026 Part 5 27-02-2026 PDF"
-        },
-        {
-          "id": "biology-44",
-          "lectureNo": 44,
-          "title": "Improvement in Food Resources part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b32e8d21ba0f29aa70e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b3ce8d21ba0f29aa710",
-          "pdfTitle": "Home Biology Improvement In food resorces Part-1 02-03-2026"
-        },
-        {
-          "id": "biology-45",
-          "lectureNo": 45,
-          "title": "Improvements in Food Resources Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b4ae8d21ba0f29aa712",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b58e8d21ba0f29aa714",
-          "pdfTitle": "Home Biology Improvement In food resorces part 2 04-03-2026"
-        },
-        {
-          "id": "biology-46",
-          "lectureNo": 46,
-          "title": "Improvements in Food Resources Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b66e8d21ba0f29aa716",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b70e8d21ba0f29aa718",
-          "pdfTitle": "Home Biology Improvement In food resorces nirman part 03"
-        },
-        {
-          "id": "biology-47",
-          "lectureNo": 47,
-          "title": "Improvements in Food Resources Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b7be8d21ba0f29aa71a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b89e8d21ba0f29aa71c",
-          "pdfTitle": "Home Biology Improvement In food resorces part 4 05-03-2026"
-        },
-        {
-          "id": "biology-48",
-          "lectureNo": 48,
-          "title": "Improvements in Food Resources Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6b94e8d21ba0f29aa71e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ba0e8d21ba0f29aa720",
-          "pdfTitle": "Home Biology Improvement In food resorces nirman part 05"
-        },
-        {
-          "id": "biology-49",
-          "lectureNo": 49,
-          "title": "Improvements in Food Resources Part-06",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6bb1e8d21ba0f29aa722",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6bbde8d21ba0f29aa724",
-          "pdfTitle": "Home Biology Improvement In food resorces nirman part 06"
-        },
-        {
-          "id": "biology-50",
-          "lectureNo": 50,
-          "title": "Reproduction in organisms Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6bc8e8d21ba0f29aa726",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6bd4e8d21ba0f29aa728",
-          "pdfTitle": "Home Biology Reproduction in organism PART-1 09-03-2026 PDF"
-        },
-        {
-          "id": "biology-51",
-          "lectureNo": 51,
-          "title": "Reproduction in organisms Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6be1e8d21ba0f29aa72a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6bece8d21ba0f29aa72c",
-          "pdfTitle": "Home Biology Reproduction in organism Nirman 2026 Part 02"
-        },
-        {
-          "id": "biology-52",
-          "lectureNo": 52,
-          "title": "Reproduction in organisms Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6bfae8d21ba0f29aa72e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c04e8d21ba0f29aa730",
-          "pdfTitle": "Home Biology Reproduction in organism Part 3 13-03-2026 PDF"
-        },
-        {
-          "id": "biology-53",
-          "lectureNo": 53,
-          "title": "Reproduction in organisms Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c0fe8d21ba0f29aa732",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c1be8d21ba0f29aa734",
-          "pdfTitle": "Home Biology Reproduction in organism Nirman 2026 Part 04"
-        },
-        {
-          "id": "biology-54",
-          "lectureNo": 54,
-          "title": "Reproduction in organisms Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c28e8d21ba0f29aa736",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c32e8d21ba0f29aa738",
-          "pdfTitle": "Home Biology Reproduction in organism Nirman Part 05"
-        },
-        {
-          "id": "biology-55",
-          "lectureNo": 55,
-          "title": "Reproduction in organisms Part-06",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c3be8d21ba0f29aa73a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c45e8d21ba0f29aa73c",
-          "pdfTitle": "Home Biology Reproduction in organism Nirman 2026 Part 06"
-        },
-        {
-          "id": "biology-56",
-          "lectureNo": 56,
-          "title": "Heredity Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c54e8d21ba0f29aa73e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c62e8d21ba0f29aa740",
-          "pdfTitle": "Home Biology Heredity Nirman 2026 Part-1 18-03-2026 PDF"
-        },
-        {
-          "id": "biology-57",
-          "lectureNo": 57,
-          "title": "Heredity Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c6de8d21ba0f29aa742",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c7ae8d21ba0f29aa744",
-          "pdfTitle": "Home Biology Heredity Nirman 2026 Part 2 19-03-2026 PDF"
-        },
-        {
-          "id": "biology-58",
-          "lectureNo": 58,
-          "title": "Heredity Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c86e8d21ba0f29aa746",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c92e8d21ba0f29aa748",
-          "pdfTitle": "Home Biology Heredity Nirman 2026 Part 3 20-03-2026 PDF"
-        },
-        {
-          "id": "biology-59",
-          "lectureNo": 59,
-          "title": "Botany Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6c9ce8d21ba0f29aa74a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ca6e8d21ba0f29aa74c",
-          "pdfTitle": "Home Biology Botany Part-1 23-03-2026 PDF"
-        },
-        {
-          "id": "biology-60",
-          "lectureNo": 60,
-          "title": "Botany Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cb2e8d21ba0f29aa74e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cbde8d21ba0f29aa750",
-          "pdfTitle": "Home Biology Botany Part 2 Nirman 2026 24-03-2026 PDF"
-        },
-        {
-          "id": "biology-61",
-          "lectureNo": 61,
-          "title": "Botany Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cc7e8d21ba0f29aa752",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cd3e8d21ba0f29aa754",
-          "pdfTitle": "Home Biology Botany Part 3 Nirman 2026 25-03-2026 PDF"
-        },
-        {
-          "id": "biology-62",
-          "lectureNo": 62,
-          "title": "Biology Live Test -01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cdde8d21ba0f29aa756",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ce8e8d21ba0f29aa758",
-          "pdfTitle": "Home Biology Biology Test-1 26-03-2026 PDF"
-        },
-        {
-          "id": "biology-63",
-          "lectureNo": 63,
-          "title": "Biology Live Test -02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cf3e8d21ba0f29aa75a",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6cfce8d21ba0f29aa75c",
-          "pdfTitle": "Home Biology Biology Test-2 27-03-2026 PDF"
-        },
-        {
-          "id": "biology-64",
-          "lectureNo": 64,
-          "title": "OF ORGANISM PART-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d07e8d21ba0f29aa75e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d11e8d21ba0f29aa760",
-          "pdfTitle": "Home Biology CLASSIFICATION OF ORGANISM 2022-12-20 PDF"
-        },
-        {
-          "id": "biology-65",
-          "lectureNo": 65,
-          "title": "CLASSIFICATION OF ORGANISM PART-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d1ce8d21ba0f29aa762",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d29e8d21ba0f29aa764",
-          "pdfTitle": "Home Biology PLANT KINGDOM 2022-08-13 PDF"
-        },
-        {
-          "id": "biology-66",
-          "lectureNo": 66,
-          "title": "CLASSIFICATION OF ORGANISM PART-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d33e8d21ba0f29aa766",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d3ee8d21ba0f29aa768",
-          "pdfTitle": "Home Biology ANIMAL KINGDOM 2022-08-13 PDF"
-        },
-        {
-          "id": "biology-67",
-          "lectureNo": 67,
-          "title": "Home science syllabus UNIT PDF 05-01-2026 PDF",
-          "videoUrl": null,
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d56e8d21ba0f29aa76c",
-          "pdfTitle": "Home science syllabus UNIT PDF 05-01-2026 PDF"
+          "title": "Content Navigation System Pdf 2026-03-24 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e055c070bf4fe858b90f7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e0568070bf4fe858b90f9",
+          "pdfTitle": "Content Navigation System Pdf 2026-03-24 Bhumi PDF"
         }
       ]
     },
     {
-      "id": "physics",
-      "name": "Physics",
-      "lectureCount": 54,
-      "videoCount": 54,
-      "pdfCount": 54,
+      "id": "tier-2-mock-test-math-all-chapters",
+      "name": "Tier 2 Mock Test Math - All Chapters",
+      "lectureCount": 9,
+      "videoCount": 9,
+      "pdfCount": 9,
       "lectures": [
         {
-          "id": "physics-1",
+          "id": "tier-2-mock-test-math-all-chapters-1",
           "lectureNo": 1,
-          "title": "Unit & Measurement Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d6ae8d21ba0f29aa770",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d74e8d21ba0f29aa773",
-          "pdfTitle": "Home Physics Unit Measurement-Part-1 31-03-2026 PDF"
+          "title": "01. Math Tier 2 Mock Test 01 2023-08-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e0574070bf4fe858b90fb",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e0581070bf4fe858b90fd",
+          "pdfTitle": "01. Math Tier 2 Mock Test 01 2023-08-08 Bhumi PDF"
         },
         {
-          "id": "physics-2",
+          "id": "tier-2-mock-test-math-all-chapters-2",
           "lectureNo": 2,
-          "title": "Units and measurement Class-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d7fe8d21ba0f29aa775",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d8be8d21ba0f29aa777",
-          "pdfTitle": "Home Physics Unit Measurement-Nirman Batch 2026 Part 02"
+          "title": "02. Math Tier 2 Mock Test 02 2023-08-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e058c070bf4fe858b90ff",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e0597070bf4fe858b9101",
+          "pdfTitle": "02. Math Tier 2 Mock Test 02 2023-08-12 Bhumi PDF"
         },
         {
-          "id": "physics-3",
+          "id": "tier-2-mock-test-math-all-chapters-3",
           "lectureNo": 3,
-          "title": "Units and measurement Class-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6d9ce8d21ba0f29aa779",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6da8e8d21ba0f29aa77b",
-          "pdfTitle": "Home Physics Unit MeasurementNirman Batch 2026 Part 03"
+          "title": "03. Math tier 2 Mock Test 03 2023-08-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5e05a1070bf4fe858b9103",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5ec728d3e06f142342974f",
+          "pdfTitle": "03. Math tier 2 Mock Test 03 2023-08-20 Bhumi PDF"
         },
         {
-          "id": "physics-4",
+          "id": "tier-2-mock-test-math-all-chapters-4",
           "lectureNo": 4,
-          "title": "Motion Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6db3e8d21ba0f29aa77d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6dbde8d21ba0f29aa77f",
-          "pdfTitle": "Home Physics Motion Part-1 06-04-2026 PDF"
+          "title": "04. Math Tier 2 Mock Test 04 2023-08-25 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5ec733d3e06f1423429752",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5ec73dd3e06f1423429755",
+          "pdfTitle": "04. Math Tier 2 Mock Test 04 2023-08-25 Bhumi PDF"
         },
         {
-          "id": "physics-5",
+          "id": "tier-2-mock-test-math-all-chapters-5",
           "lectureNo": 5,
-          "title": "Motion Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6dcae8d21ba0f29aa781",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6dd6e8d21ba0f29aa783",
-          "pdfTitle": "Home Physics Motion Nirman Batch 2026 Part 2 07-04-2026 PDF"
+          "title": "05. Math Tier 2 Mock Test 05 2023-09-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5ec74bd3e06f1423429758",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5ec755d3e06f142342975b",
+          "pdfTitle": "05. Math Tier 2 Mock Test 05 2023-09-02 Bhumi PDF"
         },
         {
-          "id": "physics-6",
+          "id": "tier-2-mock-test-math-all-chapters-6",
           "lectureNo": 6,
-          "title": "Motion Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6de1e8d21ba0f29aa785",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6dede8d21ba0f29aa787",
-          "pdfTitle": "Home Physics Motion Nirman Batch 2026 Part 3 08-04-2026 PDF"
+          "title": "06. Math Tier 2 Mock Test 06 2023-09-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844037d5dab4b99a97262a",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844041d5dab4b99a97262c",
+          "pdfTitle": "06. Math Tier 2 Mock Test 06 2023-09-09 Bhumi PDF"
         },
         {
-          "id": "physics-7",
+          "id": "tier-2-mock-test-math-all-chapters-7",
           "lectureNo": 7,
-          "title": "Motion Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6dfde8d21ba0f29aa789",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e07e8d21ba0f29aa78b",
-          "pdfTitle": "Home Physics Motion Part 4 09-04-2026 PDF"
+          "title": "07. Tier 2 Math Mock Test 07 2023-09-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84404ed5dab4b99a97262e",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844057d5dab4b99a972630",
+          "pdfTitle": "07. Tier 2 Math Mock Test 07 2023-09-21 Bhumi PDF"
         },
         {
-          "id": "physics-8",
+          "id": "tier-2-mock-test-math-all-chapters-8",
           "lectureNo": 8,
-          "title": "Motion Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e13e8d21ba0f29aa78d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e1fe8d21ba0f29aa78f",
-          "pdfTitle": "Home Physics Motion Nirman Batch 2026 Part 5 10-04-2026 PDF"
+          "title": "08. Math Tier 2 Mock Test 08 2023-10-01 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844064d5dab4b99a972632",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84406dd5dab4b99a972634",
+          "pdfTitle": "08. Math Tier 2 Mock Test 08 2023-10-01 Bhumi PDF"
         },
         {
-          "id": "physics-9",
+          "id": "tier-2-mock-test-math-all-chapters-9",
           "lectureNo": 9,
-          "title": "Force & Laws of Motion Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e2ae8d21ba0f29aa791",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e35e8d21ba0f29aa793",
-          "pdfTitle": "Home Physics Force and Laws of Motion Part-1 13-04-2026 PDF"
-        },
-        {
-          "id": "physics-10",
-          "lectureNo": 10,
-          "title": "Force & Laws of Motion Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e40e8d21ba0f29aa795",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e5ae8d21ba0f29aa799",
-          "pdfTitle": "Home Physics Force and Laws of Motion Part 2 14-04-2026 PDF"
-        },
-        {
-          "id": "physics-11",
-          "lectureNo": 11,
-          "title": "Force & Laws of Motion Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e4ee8d21ba0f29aa797",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e66e8d21ba0f29aa79b",
-          "pdfTitle": "Home Physics Force and Laws of Motion Part 3 15-04-2026 PDF"
-        },
-        {
-          "id": "physics-12",
-          "lectureNo": 12,
-          "title": "Gravitation Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e71e8d21ba0f29aa79d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e7ae8d21ba0f29aa79f",
-          "pdfTitle": "Home Physics Gravitation Nirman Batch 2026 16-04-2026 PDF"
-        },
-        {
-          "id": "physics-13",
-          "lectureNo": 13,
-          "title": "Gravitation Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e86e8d21ba0f29aa7a1",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e94e8d21ba0f29aa7a3",
-          "pdfTitle": "Home Physics Gravitation Part 2 17-04-2026 PDF"
-        },
-        {
-          "id": "physics-14",
-          "lectureNo": 14,
-          "title": "Gravitation Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6e9fe8d21ba0f29aa7a5",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6eaae8d21ba0f29aa7a7",
-          "pdfTitle": "Home Physics Gravitation Part 3 20-04-2026 PDF"
-        },
-        {
-          "id": "physics-15",
-          "lectureNo": 15,
-          "title": "Gravitation Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6eb5e8d21ba0f29aa7a9",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ebfe8d21ba0f29aa7ab",
-          "pdfTitle": "Home Physics Gravitation Part 4 21-04-2026 PDF"
-        },
-        {
-          "id": "physics-16",
-          "lectureNo": 16,
-          "title": "Gravitation Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ecae8d21ba0f29aa7ad",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ed6e8d21ba0f29aa7af",
-          "pdfTitle": "Home Physics Gravitation Part 5 Nirman Batch 2026"
-        },
-        {
-          "id": "physics-17",
-          "lectureNo": 17,
-          "title": "Work, Energy, and Power Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ee0e8d21ba0f29aa7b1",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6eede8d21ba0f29aa7b3",
-          "pdfTitle": "Home Physics Work Energy Power Part-1 29-04-2026 PDF"
-        },
-        {
-          "id": "physics-18",
-          "lectureNo": 18,
-          "title": "Work, Energy, and Power Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ef7e8d21ba0f29aa7b5",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f02e8d21ba0f29aa7b7",
-          "pdfTitle": "Home Physics Work Energy Power Part 2 Nirman Batch 2026"
-        },
-        {
-          "id": "physics-19",
-          "lectureNo": 19,
-          "title": "Work,Energy & Power part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f0ee8d21ba0f29aa7b9",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f19e8d21ba0f29aa7bb",
-          "pdfTitle": "Home Physics Work Energy Power Part 3 Nirman Batch 2026"
-        },
-        {
-          "id": "physics-20",
-          "lectureNo": 20,
-          "title": "Work, Energy, and Power Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f26e8d21ba0f29aa7bd",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f33e8d21ba0f29aa7bf",
-          "pdfTitle": "Home Physics Work Energy Power Part 4 28-04-2026 PDF"
-        },
-        {
-          "id": "physics-21",
-          "lectureNo": 21,
-          "title": "Reflection of Light Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f3ee8d21ba0f29aa7c1",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f48e8d21ba0f29aa7c3",
-          "pdfTitle": "Home Physics Reflection of Light Nirman 2026 29-04-2026 PDF"
-        },
-        {
-          "id": "physics-22",
-          "lectureNo": 22,
-          "title": "Reflection of Light Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f53e8d21ba0f29aa7c5",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f60e8d21ba0f29aa7c7",
-          "pdfTitle": "Home Physics Reflection of Light Nirman Part 2 2026"
-        },
-        {
-          "id": "physics-23",
-          "lectureNo": 23,
-          "title": "Reflection of Light Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f6ae8d21ba0f29aa7c9",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f77e8d21ba0f29aa7cb",
-          "pdfTitle": "Home Physics Reflection of Light Nirman Part 3-1 01-05-2026"
-        },
-        {
-          "id": "physics-24",
-          "lectureNo": 24,
-          "title": "Reflection of Light Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f81e8d21ba0f29aa7cd",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f91e8d21ba0f29aa7cf",
-          "pdfTitle": "Home Physics Reflection of Light Nirman Part 4 2026"
-        },
-        {
-          "id": "physics-25",
-          "lectureNo": 25,
-          "title": "Reflection of Light Part-05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6f9ee8d21ba0f29aa7d1",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fabe8d21ba0f29aa7d3",
-          "pdfTitle": "Home Physics Reflection of Light Nirman Part 5 2026"
-        },
-        {
-          "id": "physics-26",
-          "lectureNo": 26,
-          "title": "Reflection of Light Part-06",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fb6e8d21ba0f29aa7d5",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fbfe8d21ba0f29aa7d7",
-          "pdfTitle": "Home Physics Reflection of Light Nirman Part 6 2026"
-        },
-        {
-          "id": "physics-27",
-          "lectureNo": 27,
-          "title": "Refraction of Light Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fcbe8d21ba0f29aa7d9",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fd6e8d21ba0f29aa7db",
-          "pdfTitle": "Home Physics REFRACTION of light Nirman Part-1 07-05-2026"
-        },
-        {
-          "id": "physics-28",
-          "lectureNo": 28,
-          "title": "Refraction of Light Part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fe1e8d21ba0f29aa7dd",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6ff6e8d21ba0f29aa7e1",
-          "pdfTitle": "Home Physics REFRACTION of light Nirman 2026 Part 02"
-        },
-        {
-          "id": "physics-29",
-          "lectureNo": 29,
-          "title": "Refraction of Light Part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f6fede8d21ba0f29aa7df",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7001e8d21ba0f29aa7e3",
-          "pdfTitle": "Home Physics REFRACTION of light Nirman 2026 Part 03"
-        },
-        {
-          "id": "physics-30",
-          "lectureNo": 30,
-          "title": "Refraction of Light Part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f700ee8d21ba0f29aa7e5",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7019e8d21ba0f29aa7e7",
-          "pdfTitle": "Home Physics REFRACTION of light Nirman 2026 Part 04"
-        },
-        {
-          "id": "physics-31",
-          "lectureNo": 31,
-          "title": "Home Physics Refraction of Light Part-5 14-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7023e8d21ba0f29aa7e9",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f702de8d21ba0f29aa7eb",
-          "pdfTitle": "Home Physics REFRACTION of light Nirman 2026 Part 05"
-        },
-        {
-          "id": "physics-32",
-          "lectureNo": 32,
-          "title": "Home Physics Refraction of Light Part-6 15-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7039e8d21ba0f29aa7ed",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7046e8d21ba0f29aa7ef",
-          "pdfTitle": "Home Physics REFRACTION of light Nirman 2026 Part 06"
-        },
-        {
-          "id": "physics-33",
-          "lectureNo": 33,
-          "title": "Home Physics Human Eye 18-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7054e8d21ba0f29aa7f1",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7062e8d21ba0f29aa7f3",
-          "pdfTitle": "Home Physics Human eye Part-1 18-05-2026 PDF"
-        },
-        {
-          "id": "physics-34",
-          "lectureNo": 34,
-          "title": "Home Physics Human Eye Part-2 20-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7073e8d21ba0f29aa7f5",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f707ee8d21ba0f29aa7f7",
-          "pdfTitle": "Home Physics Human eye Part 2 Nirman 2026 20-05-2026 PDF"
-        },
-        {
-          "id": "physics-35",
-          "lectureNo": 35,
-          "title": "Home Physics Prism 21-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7089e8d21ba0f29aa7f9",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f709ee8d21ba0f29aa7fd",
-          "pdfTitle": "Home Physics Prism Nirman 2026 21-05-2026 PDF"
-        },
-        {
-          "id": "physics-36",
-          "lectureNo": 36,
-          "title": "Home Physics Prism Part-2 22-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7094e8d21ba0f29aa7fb",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70a8e8d21ba0f29aa7ff",
-          "pdfTitle": "Home Physics Prism Part 2 Nirman 2026 22-05-2026 PDF"
-        },
-        {
-          "id": "physics-37",
-          "lectureNo": 37,
-          "title": "Home Physics Sound Part-1 25-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70b3e8d21ba0f29aa801",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70cce8d21ba0f29aa805",
-          "pdfTitle": "Home Physics Sound Part-1 25-05-2026 PDF"
-        },
-        {
-          "id": "physics-38",
-          "lectureNo": 38,
-          "title": "Home Physics Sound Part-2 26-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70bfe8d21ba0f29aa803",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70d8e8d21ba0f29aa807",
-          "pdfTitle": "Home Physics Sound Part 2 Nirman 2026 26-05-2026 PDF"
-        },
-        {
-          "id": "physics-39",
-          "lectureNo": 39,
-          "title": "Home Physics Sound Part-3 27-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70e3e8d21ba0f29aa809",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70eee8d21ba0f29aa80b",
-          "pdfTitle": "Home Physics Sound Part 3 Nirman 2026 27-05-2026 PDF"
-        },
-        {
-          "id": "physics-40",
-          "lectureNo": 40,
-          "title": "Home Physics Sound Part-4 28-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f70fae8d21ba0f29aa80d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7115e8d21ba0f29aa811",
-          "pdfTitle": "Home Physics Sound Part 4 Nirman 2026 28-05-2026 PDF"
-        },
-        {
-          "id": "physics-41",
-          "lectureNo": 41,
-          "title": "Home Physics Sound Part-5 29-05-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7109e8d21ba0f29aa80f",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7123e8d21ba0f29aa813",
-          "pdfTitle": "Home Physics Sound Part 5 Nirman 2026 29-05-2026 PDF"
-        },
-        {
-          "id": "physics-42",
-          "lectureNo": 42,
-          "title": "Home Physics Electricity Part-1 02-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f712ee8d21ba0f29aa815",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7139e8d21ba0f29aa817",
-          "pdfTitle": "Home Physics Electricity nirman 2026 02-06-2026 PDF"
-        },
-        {
-          "id": "physics-43",
-          "lectureNo": 43,
-          "title": "Home Physics Electricity Part-2 03-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7145e8d21ba0f29aa819",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7154e8d21ba0f29aa81b",
-          "pdfTitle": "Home Physics Electricity Part 2 nirman 2026 03-06-2026 PDF"
-        },
-        {
-          "id": "physics-44",
-          "lectureNo": 44,
-          "title": "Home Physics Electricity Part-3 04-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f715fe8d21ba0f29aa81d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f716de8d21ba0f29aa81f",
-          "pdfTitle": "Home Physics Electricity Part 3 nirman 2026 04-06-2026 PDF"
-        },
-        {
-          "id": "physics-45",
-          "lectureNo": 45,
-          "title": "Home Physics Electricity Part-4 05-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f717ae8d21ba0f29aa821",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7184e8d21ba0f29aa823",
-          "pdfTitle": "Home Physics Electricity Part 4 nirman 2026 05-06-2026 PDF"
-        },
-        {
-          "id": "physics-46",
-          "lectureNo": 46,
-          "title": "Home Physics Electricity Part-5 08-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f718ee8d21ba0f29aa825",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f719ae8d21ba0f29aa827",
-          "pdfTitle": "Home Physics Electricity Part 5 nirman 2026 08-06-2026 PDF"
-        },
-        {
-          "id": "physics-47",
-          "lectureNo": 47,
-          "title": "Home Physics Electricity Part-6 09-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71a6e8d21ba0f29aa829",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71b4e8d21ba0f29aa82b",
-          "pdfTitle": "Home Physics Electricity Part 6 nirman 2026 09-06-2026 PDF"
-        },
-        {
-          "id": "physics-48",
-          "lectureNo": 48,
-          "title": "Home Physics Magnetic Effect of Electric Current Part-01",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71c0e8d21ba0f29aa82d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71cae8d21ba0f29aa82f",
-          "pdfTitle": "Home Physics Magnetic effect of current nirman 2026"
-        },
-        {
-          "id": "physics-49",
-          "lectureNo": 49,
-          "title": "Home Physics Magnetic Effect of Electric Current part-02",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71d6e8d21ba0f29aa831",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71e2e8d21ba0f29aa833",
-          "pdfTitle": "Home Physics Magnetic effect of current nirman 2026 Part 02"
-        },
-        {
-          "id": "physics-50",
-          "lectureNo": 50,
-          "title": "Home Physics Magnetic Effect of Electric Current part-03",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71ece8d21ba0f29aa835",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f71f8e8d21ba0f29aa837",
-          "pdfTitle": "Home Physics Magnetic effect of current nirman 2026 Part 03"
-        },
-        {
-          "id": "physics-51",
-          "lectureNo": 51,
-          "title": "Home Physics Magnetic Effect of Electric Current part-04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7206e8d21ba0f29aa839",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7211e8d21ba0f29aa83b",
-          "pdfTitle": "Home Physics Magnetic effect of current nirman 2026 Part 04"
-        },
-        {
-          "id": "physics-52",
-          "lectureNo": 52,
-          "title": "Home Physics Earth Part-1",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9684efec7a0543ebea6d85",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9684f9ec7a0543ebea6d87",
-          "pdfTitle": "Home Physics Earth Part-1 Nirman 2026 PDF"
-        },
-        {
-          "id": "physics-53",
-          "lectureNo": 53,
-          "title": "Home Physics Earth Part-2 07-08-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a968506ec7a0543ebea6d89",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a968510ec7a0543ebea6d8b",
-          "pdfTitle": "Home Physics Earth Part-2 Nirman 2026 07-08-2026 PDF"
-        },
-        {
-          "id": "physics-54",
-          "lectureNo": 54,
-          "title": "Earth Earth Part 3",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a96851eec7a0543ebea6d8d",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a968529ec7a0543ebea6d8f",
-          "pdfTitle": "Earth Earth Part 3"
+          "title": "09. Math Tier 2 Mock Test 09 2023-10-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844079d5dab4b99a972636",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844086d5dab4b99a972638",
+          "pdfTitle": "09. Math Tier 2 Mock Test 09 2023-10-08 Bhumi PDF"
         }
       ]
     },
     {
-      "id": "chemistry",
-      "name": "Chemistry",
-      "lectureCount": 28,
-      "videoCount": 28,
-      "pdfCount": 27,
+      "id": "maths-qrps-for-tier-2-algebra",
+      "name": "Maths - QRPs for Tier 2 (Algebra)",
+      "lectureCount": 8,
+      "videoCount": 8,
+      "pdfCount": 5,
       "lectures": [
         {
-          "id": "chemistry-1",
+          "id": "maths-qrps-for-tier-2-algebra-1",
           "lectureNo": 1,
-          "title": "Home Chemistry Matter Part-1 29-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7226e8d21ba0f29aa83f",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7235e8d21ba0f29aa841",
-          "pdfTitle": "Home Chemistry Matter Part-1 29-06-2026 PDF"
+          "title": "Algebra Quick Revision part 1 2024-11-16 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844091d5dab4b99a97263a",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84409ad5dab4b99a97263c",
+          "pdfTitle": "Algebra Quick Revision part 1 2024-11-16 Bhumi PDF"
         },
         {
-          "id": "chemistry-2",
+          "id": "maths-qrps-for-tier-2-algebra-2",
           "lectureNo": 2,
-          "title": "Home Chemistry Matter Part-2 30-06-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7245e8d21ba0f29aa843",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7250e8d21ba0f29aa845",
-          "pdfTitle": "Home Chemistry Matter Part 2 Nirman 2026 30-06-2026 PDF"
+          "title": "Algebra Quick Revision part 2 2024-11-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440a3d5dab4b99a97263e",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440add5dab4b99a972640",
+          "pdfTitle": "Algebra Quick Revision part 2 2024-11-20 Bhumi PDF"
         },
         {
-          "id": "chemistry-3",
+          "id": "maths-qrps-for-tier-2-algebra-3",
           "lectureNo": 3,
-          "title": "Home Chemistry Matter Part-3 01-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f725be8d21ba0f29aa847",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7268e8d21ba0f29aa849",
-          "pdfTitle": "Home Chemistry Matter Part 3 Nirman 2026 01-07-2026 PDF"
+          "title": "Algebra Quick Revision part 3 2024-11-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440b8d5dab4b99a972642",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440c6d5dab4b99a972644",
+          "pdfTitle": "Algebra Quick Revision part 3 2024-11-26 Bhumi PDF"
         },
         {
-          "id": "chemistry-4",
+          "id": "maths-qrps-for-tier-2-algebra-4",
           "lectureNo": 4,
-          "title": "Home Chemistry Matter Part-4 02-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7277e8d21ba0f29aa84b",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7281e8d21ba0f29aa84d",
-          "pdfTitle": "Home Chemistry Matter Part 4 Nirman 2026 02-07-2026 PDF"
+          "title": "Algebra Quick Revision part 4 2024-11-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440ced5dab4b99a972646",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440d9d5dab4b99a972648",
+          "pdfTitle": "Algebra Quick Revision part 4 2024-11-29 Bhumi PDF"
         },
         {
-          "id": "chemistry-5",
+          "id": "maths-qrps-for-tier-2-algebra-5",
           "lectureNo": 5,
-          "title": "Home Chemistry Classification of Matter Part-1 03-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f7290e8d21ba0f29aa84f",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f729ae8d21ba0f29aa851",
-          "pdfTitle": "Home Chemistry CLassification of Matter Nirman 2026"
+          "title": "QRPs Algebra part 5 2024-12-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440e4d5dab4b99a97264a",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440efd5dab4b99a97264c",
+          "pdfTitle": "QRPs Algebra part 5 2024-12-02 Bhumi PDF"
         },
         {
-          "id": "chemistry-6",
+          "id": "maths-qrps-for-tier-2-algebra-6",
           "lectureNo": 6,
-          "title": "Home Chemistry Classification of Matter part-2 06-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72a5e8d21ba0f29aa853",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72b2e8d21ba0f29aa855",
-          "pdfTitle": "Home Chemistry CLassification of Matter Nirman 2026 Part 02"
-        },
-        {
-          "id": "chemistry-7",
-          "lectureNo": 7,
-          "title": "Home Chemistry Classification of Matter Part-3 07-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72bfe8d21ba0f29aa857",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72cbe8d21ba0f29aa859",
-          "pdfTitle": "Home Chemistry CLassification of Matter Nirman 2026 Part 03"
-        },
-        {
-          "id": "chemistry-8",
-          "lectureNo": 8,
-          "title": "Home Chemistry Classification of Matter Part-4 09-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72d6e8d21ba0f29aa85b",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72e1e8d21ba0f29aa85d",
-          "pdfTitle": "Home Chemistry CLassification of Matter Nirman 2026 Part 04"
-        },
-        {
-          "id": "chemistry-9",
-          "lectureNo": 9,
-          "title": "Home Chemistry Atom Molecule Part-1 10-07-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72ede8d21ba0f29aa85f",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a5f72fbe8d21ba0f29aa861",
-          "pdfTitle": "Home Chemistry Atom Molecule Nirman 2026 10-07-2026 PDF"
-        },
-        {
-          "id": "chemistry-10",
-          "lectureNo": 10,
-          "title": "Chemistry Atom & Molecule Atom & Molecule Part 2 13 07 2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec38ce825913d38fe98c7",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec396e825913d38fe98c9",
-          "pdfTitle": "Chemistry Atom & Molecule Atom & Molecule Part 2 Nirman 2026 13 PDF"
-        },
-        {
-          "id": "chemistry-11",
-          "lectureNo": 11,
-          "title": "Chemistry Acids Bases and Salts Acids Bases and Salts Part 1 30",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec480e825913d38fe98f3",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec48ce825913d38fe98f5",
-          "pdfTitle": "Chemistry Acids Bases and Salts Acids bases & Salt Part 1 30 07 PDF"
-        },
-        {
-          "id": "chemistry-12",
-          "lectureNo": 12,
-          "title": "Chemistry Acids Bases and Salts Acids Bases and Salts Part 2 31",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec497e825913d38fe98f7",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4a3e825913d38fe98f9",
-          "pdfTitle": "Chemistry Acids Bases and Salts Acids bases & Salt Part 2 Nirman PDF"
-        },
-        {
-          "id": "chemistry-13",
-          "lectureNo": 13,
-          "title": "Chemistry Acids Bases and Salts Acids Bases and Salts Part 3 04",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4ace825913d38fe98fb",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4b4e825913d38fe98fd",
-          "pdfTitle": "Chemistry Acids Bases and Salts Acids bases & Salt Part 3 Nirman PDF"
-        },
-        {
-          "id": "chemistry-14",
-          "lectureNo": 14,
-          "title": "Chemistry Acids Bases and Salts Acids Bases and Salts Part 4 05",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4c0e825913d38fe98ff",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4cbe825913d38fe9901",
-          "pdfTitle": "Chemistry Acids Bases and Salts Acids bases & Salt Part 4 Nirman PDF"
-        },
-        {
-          "id": "chemistry-15",
-          "lectureNo": 15,
-          "title": "Chemistry Acids Bases and Salts Acids Bases and Salts Part 5 06",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4d7e825913d38fe9903",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a7ec4e2e825913d38fe9905",
-          "pdfTitle": "Chemistry Acids Bases and Salts Acids bases & Salt Part 5 Nirman PDF"
-        },
-        {
-          "id": "chemistry-16",
-          "lectureNo": 16,
-          "title": "Home Chemistry Acids, Bases and Salts Part-6 Nirman 2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a96838cec7a0543ebea6d5c",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a968397ec7a0543ebea6d5e",
-          "pdfTitle": "Home Chemistry Acids, Bases and Salts Part-6 Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-17",
-          "lectureNo": 17,
-          "title": "Home Chemistry Acids, Bases and Salts Part-7",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a968398ec7a0543ebea6d60",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683abec7a0543ebea6d65",
-          "pdfTitle": "Home Chemistry Acids, Bases and Salts Part-7 Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-18",
-          "lectureNo": 18,
-          "title": "Home Chemistry Metal and Non-Metal Part-1",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683b6ec7a0543ebea6d68",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683c2ec7a0543ebea6d6b",
-          "pdfTitle": "Home Chemistry Metal and Non-Metal Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-19",
-          "lectureNo": 19,
-          "title": "Home Chemistry Metal and Non-Metal Part-2",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683c2ec7a0543ebea6d6b",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683b6ec7a0543ebea6d68",
-          "pdfTitle": "Home Chemistry Metal and Non-Metal Part-2 Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-20",
-          "lectureNo": 20,
-          "title": "Home Chemistry Metal and Non-Metal Part-3 17-08-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683ceec7a0543ebea6d6e",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683ceec7a0543ebea6d6e",
-          "pdfTitle": "Home Chemistry Metal and Non-Metal Part-3 Nirman 2026 17-08-2026 PDF"
-        },
-        {
-          "id": "chemistry-21",
-          "lectureNo": 21,
-          "title": "Home Chemistry Metal and Non-Metal Part-4 18-08-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683f6ec7a0543ebea6d76",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9683e3ec7a0543ebea6d73",
-          "pdfTitle": "Home Chemistry Metal and Non-Metal Part-4 Nirman 2026 18-08-2026 PDF"
-        },
-        {
-          "id": "chemistry-22",
-          "lectureNo": 22,
-          "title": "Home Chemistry Metal and Non-Metal Part-5 19-08-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9684d0ec7a0543ebea6d82",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9684c6ec7a0543ebea6d7f",
-          "pdfTitle": "Home Chemistry Metal and Non-Metal Part-5 Nirman 2026 19-08-2026 PDF"
-        },
-        {
-          "id": "chemistry-23",
-          "lectureNo": 23,
-          "title": "Home Chemistry Metal and Non-Metal Part-6 20-08-2026",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9684d0ec7a0543ebea6d82",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984361beb270ddec0d865",
-          "pdfTitle": "Home Chemistry Metal and Non-Metal Part-6 Nirman 2026 20-08-2026 PDF"
-        },
-        {
-          "id": "chemistry-24",
-          "lectureNo": 24,
-          "title": "Chemistry Carbon and its Compounds Part-1",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984421beb270ddec0d867",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a99844b1beb270ddec0d869",
-          "pdfTitle": "Chemistry Carbon and its Compounds Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-25",
-          "lectureNo": 25,
-          "title": "Chemistry Carbon and its Compounds Part-2",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984591beb270ddec0d86b",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984671beb270ddec0d86d",
-          "pdfTitle": "Chemistry Carbon and its Compounds Part-2 Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-26",
-          "lectureNo": 26,
-          "title": "Chemistry Carbon and its Compounds Part-3",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984741beb270ddec0d86f",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984821beb270ddec0d871",
-          "pdfTitle": "Chemistry Carbon and its Compounds Part-3 Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-27",
-          "lectureNo": 27,
-          "title": "Chemistry Carbon and its Compounds Part-4",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984931beb270ddec0d873",
-          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984a01beb270ddec0d875",
-          "pdfTitle": "Chemistry Carbon and its Compounds Part-4 Nirman 2026 PDF"
-        },
-        {
-          "id": "chemistry-28",
-          "lectureNo": 28,
-          "title": "Chemistry Carbon and its Compounds Part-5",
-          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a9984ab1beb270ddec0d877",
+          "title": "Equation Quick Revision Points 2022-07-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8440f8d5dab4b99a97264e",
           "pdfUrl": null,
           "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-algebra-7",
+          "lectureNo": 7,
+          "title": "Surds And Simplification Quick Revision Points 2022-07-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844103d5dab4b99a972650",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-algebra-8",
+          "lectureNo": 8,
+          "title": "Simplification Quick Revision Points 2022-07-22 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84410ed5dab4b99a972652",
+          "pdfUrl": null,
+          "pdfTitle": null
+        }
+      ]
+    },
+    {
+      "id": "maths-qrps-for-tier-2-geometry-mensuration",
+      "name": "Maths - QRPs for Tier 2 (Geometry & Mensuration)",
+      "lectureCount": 6,
+      "videoCount": 6,
+      "pdfCount": 1,
+      "lectures": [
+        {
+          "id": "maths-qrps-for-tier-2-geometry-mensuration-1",
+          "lectureNo": 1,
+          "title": "Plane Geometry Quick Revision Points 2022-07-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84411ad5dab4b99a972654",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-geometry-mensuration-2",
+          "lectureNo": 2,
+          "title": "Mensuration 2D Quick Revision Points 2022-07-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844126d5dab4b99a972656",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-geometry-mensuration-3",
+          "lectureNo": 3,
+          "title": "Trigonometry Quick Revision Points 2022-07-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84412fd5dab4b99a972658",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-geometry-mensuration-4",
+          "lectureNo": 4,
+          "title": "Height And Distance Quick Revision Points 2022-07-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84413cd5dab4b99a97265a",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-geometry-mensuration-5",
+          "lectureNo": 5,
+          "title": "Number System QRPs Part 1 2022-07-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844146d5dab4b99a97265c",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-geometry-mensuration-6",
+          "lectureNo": 6,
+          "title": "AP, GP, HP QRPs 2023-09-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84414fd5dab4b99a97265e",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84415ed5dab4b99a972660",
+          "pdfTitle": "AP, GP, HP QRPs 2023-09-20 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-qrps-for-tier-2-more-topics",
+      "name": "Maths - QRPs for Tier 2 (More Topics)",
+      "lectureCount": 12,
+      "videoCount": 12,
+      "pdfCount": 2,
+      "lectures": [
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-1",
+          "lectureNo": 1,
+          "title": "Number System QRPs Part - 2 2022-07-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84416cd5dab4b99a972662",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-2",
+          "lectureNo": 2,
+          "title": "QRPs coordinate geometry 2024-11-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844174d5dab4b99a972664",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844186d5dab4b99a972666",
+          "pdfTitle": "QRPs coordinate geometry 2024-11-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-3",
+          "lectureNo": 3,
+          "title": "HCF & LCM Quick Revision Points 2022-08-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844190d5dab4b99a972668",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84419bd5dab4b99a97266a",
+          "pdfTitle": "HCF & LCM Quick Revision Points 2022-08-12 Bhumi PDF"
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-4",
+          "lectureNo": 4,
+          "title": "Percentage Quick Revision Points 2022-08-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441a5d5dab4b99a97266c",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-5",
+          "lectureNo": 5,
+          "title": "SI, CI & Installment QRPs 2022-08-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441afd5dab4b99a97266e",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-6",
+          "lectureNo": 6,
+          "title": "Profit & Loss and Discount QRP 2022-09-10 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441bad5dab4b99a972670",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-7",
+          "lectureNo": 7,
+          "title": "Ratio and proportion QRPs 2022-09-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441c6d5dab4b99a972672",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-8",
+          "lectureNo": 8,
+          "title": "Partnership QRP 2022-09-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441d3d5dab4b99a972674",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-9",
+          "lectureNo": 9,
+          "title": "Average QRP 2023-04-14 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441ddd5dab4b99a972676",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-10",
+          "lectureNo": 10,
+          "title": "WA, Alligation and mixture QRPs 2022-09-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441e6d5dab4b99a972678",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-11",
+          "lectureNo": 11,
+          "title": "Time and work QRP 2022-09-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441f3d5dab4b99a97267a",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-qrps-for-tier-2-more-topics-12",
+          "lectureNo": 12,
+          "title": "Time, Speed and Distance Quick Revision Points. 2022-07-10 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8441fdd5dab4b99a97267c",
+          "pdfUrl": null,
+          "pdfTitle": null
+        }
+      ]
+    },
+    {
+      "id": "maths-notes-for-tier-2",
+      "name": "Maths - Notes for Tier 2",
+      "lectureCount": 20,
+      "videoCount": 20,
+      "pdfCount": 20,
+      "lectures": [
+        {
+          "id": "maths-notes-for-tier-2-1",
+          "lectureNo": 1,
+          "title": "Number system Notes Video 2022-09-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844281d5dab4b99a972694",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84428bd5dab4b99a972696",
+          "pdfTitle": "Number system Notes Video 2022-09-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-2",
+          "lectureNo": 2,
+          "title": "Algebra Notes Video 2022-09-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844299d5dab4b99a972698",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442a7d5dab4b99a97269a",
+          "pdfTitle": "Algebra Notes Video 2022-09-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-3",
+          "lectureNo": 3,
+          "title": "Equations Notes Video 2022-09-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442b2d5dab4b99a97269c",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442bcd5dab4b99a97269e",
+          "pdfTitle": "Equations Notes Video 2022-09-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-4",
+          "lectureNo": 4,
+          "title": "Surds and Indices Notes Video 2022-09-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442c4d5dab4b99a9726a0",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442d0d5dab4b99a9726a2",
+          "pdfTitle": "Surds and Indices Notes Video 2022-09-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-5",
+          "lectureNo": 5,
+          "title": "Simplification Notes Video 2022-09-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442d9d5dab4b99a9726a4",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442e4d5dab4b99a9726a6",
+          "pdfTitle": "Simplification Notes Video 2022-09-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-6",
+          "lectureNo": 6,
+          "title": "Plane Geometry Notes Video 2022-09-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442eed5dab4b99a9726a8",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8442fdd5dab4b99a9726aa",
+          "pdfTitle": "Plane Geometry Notes Video 2022-09-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-7",
+          "lectureNo": 7,
+          "title": "Mensuration 2D Notes Video 2022-09-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84430bd5dab4b99a9726ac",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844318d5dab4b99a9726ae",
+          "pdfTitle": "Mensuration 2D Notes Video 2022-09-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-8",
+          "lectureNo": 8,
+          "title": "Mensuration 3D Notes Video 2022-09-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844322d5dab4b99a9726b0",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84432bd5dab4b99a9726b2",
+          "pdfTitle": "Mensuration 3D Notes Video 2022-09-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-9",
+          "lectureNo": 9,
+          "title": "Trigonometry Notes Video 2022-10-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844334d5dab4b99a9726b4",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844341d5dab4b99a9726b6",
+          "pdfTitle": "Trigonometry Notes Video 2022-10-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-10",
+          "lectureNo": 10,
+          "title": "Height & Distance Notes Video 2022-10-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84434bd5dab4b99a9726b8",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844356d5dab4b99a9726ba",
+          "pdfTitle": "Height & Distance Notes Video 2022-10-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-11",
+          "lectureNo": 11,
+          "title": "Coordinate Geometry Notes Video 2022-10-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844360d5dab4b99a9726bc",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84436bd5dab4b99a9726be",
+          "pdfTitle": "Coordinate Geometry Notes Video 2022-10-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-12",
+          "lectureNo": 12,
+          "title": "HCF & LCM Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844378d5dab4b99a9726c0",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844386d5dab4b99a9726c2",
+          "pdfTitle": "HCF & LCM Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-13",
+          "lectureNo": 13,
+          "title": "Percentage Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844393d5dab4b99a9726c4",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84439ed5dab4b99a9726c6",
+          "pdfTitle": "Percentage Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-14",
+          "lectureNo": 14,
+          "title": "SI, CI & Installment Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443a8d5dab4b99a9726c8",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443b2d5dab4b99a9726ca",
+          "pdfTitle": "SI, CI & Installment Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-15",
+          "lectureNo": 15,
+          "title": "Profit and Loss & Discount Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443bcd5dab4b99a9726cc",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443c8d5dab4b99a9726ce",
+          "pdfTitle": "Profit and Loss & Discount Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-16",
+          "lectureNo": 16,
+          "title": "Ratio, Proportional and Partnership Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443d4d5dab4b99a9726d0",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443ded5dab4b99a9726d2",
+          "pdfTitle": "Ratio, Proportional and Partnership Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-17",
+          "lectureNo": 17,
+          "title": "Average Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443ecd5dab4b99a9726d4",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8443f5d5dab4b99a9726d6",
+          "pdfTitle": "Average Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-18",
+          "lectureNo": 18,
+          "title": "Weighted Average & Alligation Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844401d5dab4b99a9726d8",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84440dd5dab4b99a9726da",
+          "pdfTitle": "Weighted Average & Alligation Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-19",
+          "lectureNo": 19,
+          "title": "Time & Work Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844416d5dab4b99a9726dc",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844421d5dab4b99a9726de",
+          "pdfTitle": "Time & Work Notes Video 2022-11-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-notes-for-tier-2-20",
+          "lectureNo": 20,
+          "title": "Time & Distance Notes Video 2022-11-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84442fd5dab4b99a9726e0",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84443bd5dab4b99a9726e2",
+          "pdfTitle": "Time & Distance Notes Video 2022-11-05 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-calculations-booster",
+      "name": "Maths - Calculations Booster",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 2,
+      "lectures": [
+        {
+          "id": "maths-calculations-booster-1",
+          "lectureNo": 1,
+          "title": "01. Important Calculation class - 1 2022-07-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84446bd5dab4b99a9726ea",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844478d5dab4b99a9726ec",
+          "pdfTitle": "01. Important Calculation class - 1 2022-07-28 Bhumi PDF"
+        },
+        {
+          "id": "maths-calculations-booster-2",
+          "lectureNo": 2,
+          "title": "02. Important Calculation Class - 2 2022-07-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844481d5dab4b99a9726ee",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84448ed5dab4b99a9726f0",
+          "pdfTitle": "02. Important Calculation Class - 2 2022-07-28 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-hcf-and-lcm",
+      "name": "Maths - HCF and LCM",
+      "lectureCount": 5,
+      "videoCount": 5,
+      "pdfCount": 5,
+      "lectures": [
+        {
+          "id": "maths-hcf-and-lcm-1",
+          "lectureNo": 1,
+          "title": "01 LCM & HCF class 01 2023-09-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84449ad5dab4b99a9726f2",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444a5d5dab4b99a9726f4",
+          "pdfTitle": "01 LCM & HCF class 01 2023-09-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-hcf-and-lcm-2",
+          "lectureNo": 2,
+          "title": "02. LCM & HCF class 02 2023-09-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444b1d5dab4b99a9726f6",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444bdd5dab4b99a9726f8",
+          "pdfTitle": "02. LCM & HCF class 02 2023-09-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-hcf-and-lcm-3",
+          "lectureNo": 3,
+          "title": "03 LCM & HCF class 03 2023-10-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444d4d5dab4b99a9726fc",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444e2d5dab4b99a9726fe",
+          "pdfTitle": "03 LCM & HCF class 03 2023-10-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-hcf-and-lcm-4",
+          "lectureNo": 4,
+          "title": "04. LCM & HCF class 04 2023-10-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444ebd5dab4b99a972700",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8444f4d5dab4b99a972702",
+          "pdfTitle": "04. LCM & HCF class 04 2023-10-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-hcf-and-lcm-5",
+          "lectureNo": 5,
+          "title": "05. Optional HCF and LCM Extra Practice 2025-11-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844501d5dab4b99a972704",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84450ad5dab4b99a972706",
+          "pdfTitle": "05. Optional HCF and LCM Extra Practice 2025-11-27 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-probability",
+      "name": "Maths - PROBABILITY",
+      "lectureCount": 7,
+      "videoCount": 7,
+      "pdfCount": 7,
+      "lectures": [
+        {
+          "id": "maths-probability-1",
+          "lectureNo": 1,
+          "title": "01. Probability Class 01 2023-08-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844531d5dab4b99a97270c",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84453cd5dab4b99a97270e",
+          "pdfTitle": "01. Probability Class 01 2023-08-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-probability-2",
+          "lectureNo": 2,
+          "title": "02. Probability Class 02 2023-08-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844547d5dab4b99a972710",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844552d5dab4b99a972712",
+          "pdfTitle": "02. Probability Class 02 2023-08-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-probability-3",
+          "lectureNo": 3,
+          "title": "03. Probability Class 03 2024-09-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84455fd5dab4b99a972714",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84456cd5dab4b99a972716",
+          "pdfTitle": "03. Probability Class 03 2024-09-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-probability-4",
+          "lectureNo": 4,
+          "title": "04. Probability Class 04 2024-09-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844578d5dab4b99a972718",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844581d5dab4b99a97271a",
+          "pdfTitle": "04. Probability Class 04 2024-09-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-probability-5",
+          "lectureNo": 5,
+          "title": "05. Probability Class 05 2024-09-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84458fd5dab4b99a97271c",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844599d5dab4b99a97271e",
+          "pdfTitle": "05. Probability Class 05 2024-09-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-probability-6",
+          "lectureNo": 6,
+          "title": "06. Probability Latest Update 2025-10-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8445a5d5dab4b99a972720",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8445aed5dab4b99a972722",
+          "pdfTitle": "06. Probability Latest Update 2025-10-18 Bhumi PDF"
+        },
+        {
+          "id": "maths-probability-7",
+          "lectureNo": 7,
+          "title": "07. Probability Extra Practice (optional) 2025-10-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8445c5d5dab4b99a972726",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8445d2d5dab4b99a972728",
+          "pdfTitle": "07. Probability Extra Practice (optional) 2025-10-21 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-simple-interest",
+      "name": "Maths - Simple Interest",
+      "lectureCount": 3,
+      "videoCount": 3,
+      "pdfCount": 3,
+      "lectures": [
+        {
+          "id": "maths-simple-interest-1",
+          "lectureNo": 1,
+          "title": "01. SI Class 01 2023-02-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8445f3d5dab4b99a97272e",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8445fcd5dab4b99a972730",
+          "pdfTitle": "01. SI Class 01 2023-02-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-simple-interest-2",
+          "lectureNo": 2,
+          "title": "02. SI Class 02 2023-02-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844605d5dab4b99a972732",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84460fd5dab4b99a972734",
+          "pdfTitle": "02. SI Class 02 2023-02-09 Bhumi PDF"
+        },
+        {
+          "id": "maths-simple-interest-3",
+          "lectureNo": 3,
+          "title": "03. Optional Simple interest Extra practice PART 1 2025-12-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84461bd5dab4b99a972736",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844626d5dab4b99a972738",
+          "pdfTitle": "03. Optional Simple interest Extra practice PART 1 2025-12-18 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-compound-interest",
+      "name": "Maths - Compound Interest",
+      "lectureCount": 4,
+      "videoCount": 4,
+      "pdfCount": 4,
+      "lectures": [
+        {
+          "id": "maths-compound-interest-1",
+          "lectureNo": 1,
+          "title": "01. CI Class 01 2023-02-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84463ed5dab4b99a97273c",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84464bd5dab4b99a97273e",
+          "pdfTitle": "01. CI Class 01 2023-02-09 Bhumi PDF"
+        },
+        {
+          "id": "maths-compound-interest-2",
+          "lectureNo": 2,
+          "title": "02. CI Class 02 2023-02-10 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844657d5dab4b99a972740",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844660d5dab4b99a972742",
+          "pdfTitle": "02. CI Class 02 2023-02-10 Bhumi PDF"
+        },
+        {
+          "id": "maths-compound-interest-3",
+          "lectureNo": 3,
+          "title": "03. CI Class 03 2023-02-10 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84466bd5dab4b99a972744",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844677d5dab4b99a972746",
+          "pdfTitle": "03. CI Class 03 2023-02-10 Bhumi PDF"
+        },
+        {
+          "id": "maths-compound-interest-4",
+          "lectureNo": 4,
+          "title": "04. CI Class 04 2023-02-10 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844683d5dab4b99a972748",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84468bd5dab4b99a97274a",
+          "pdfTitle": "04. CI Class 04 2023-02-10 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-trigonometry",
+      "name": "Maths - Trigonometry",
+      "lectureCount": 11,
+      "videoCount": 11,
+      "pdfCount": 11,
+      "lectures": [
+        {
+          "id": "maths-trigonometry-1",
+          "lectureNo": 1,
+          "title": "01. Trigonometry Class 1 2023-01-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8446a2d5dab4b99a97274e",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8446abd5dab4b99a972750",
+          "pdfTitle": "01. Trigonometry Class 1 2023-01-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-2",
+          "lectureNo": 2,
+          "title": "02. Trigonometry Class 2 2023-01-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8446b6d5dab4b99a972752",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84473cd5dab4b99a972755",
+          "pdfTitle": "02. Trigonometry Class 2 2023-01-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-3",
+          "lectureNo": 3,
+          "title": "03. Trigonometry Class 3 2023-01-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844760d5dab4b99a97275b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84476dd5dab4b99a97275d",
+          "pdfTitle": "03. Trigonometry Class 3 2023-01-28 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-4",
+          "lectureNo": 4,
+          "title": "04. Trigonometry Class 4 2023-01-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844778d5dab4b99a97275f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844781d5dab4b99a972761",
+          "pdfTitle": "04. Trigonometry Class 4 2023-01-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-5",
+          "lectureNo": 5,
+          "title": "05. Trigonometry Class 5 2023-01-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84478ad5dab4b99a972763",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844795d5dab4b99a972765",
+          "pdfTitle": "05. Trigonometry Class 5 2023-01-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-6",
+          "lectureNo": 6,
+          "title": "06. Trigonometry Class 6 2023-01-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447a1d5dab4b99a972767",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447aad5dab4b99a972769",
+          "pdfTitle": "06. Trigonometry Class 6 2023-01-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-7",
+          "lectureNo": 7,
+          "title": "07. Trigonometry Class 7 2023-01-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447b2d5dab4b99a97276b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447c0d5dab4b99a97276d",
+          "pdfTitle": "07. Trigonometry Class 7 2023-01-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-8",
+          "lectureNo": 8,
+          "title": "08. Trigonometry Class 8 2023-01-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447ccd5dab4b99a97276f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447d9d5dab4b99a972771",
+          "pdfTitle": "08. Trigonometry Class 8 2023-01-31 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-9",
+          "lectureNo": 9,
+          "title": "09. Trigonometry Class 9 2023-01-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447e6d5dab4b99a972773",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447f0d5dab4b99a972775",
+          "pdfTitle": "09. Trigonometry Class 9 2023-01-31 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-10",
+          "lectureNo": 10,
+          "title": "10. Trigonometry Class 10 2023-02-01 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8447fcd5dab4b99a972777",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844809d5dab4b99a972779",
+          "pdfTitle": "10. Trigonometry Class 10 2023-02-01 Bhumi PDF"
+        },
+        {
+          "id": "maths-trigonometry-11",
+          "lectureNo": 11,
+          "title": "11. Trigonometry Class 11 2023-02-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844816d5dab4b99a97277b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844827d5dab4b99a97277d",
+          "pdfTitle": "11. Trigonometry Class 11 2023-02-02 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-installment",
+      "name": "Maths - Installment",
+      "lectureCount": 1,
+      "videoCount": 1,
+      "pdfCount": 1,
+      "lectures": [
+        {
+          "id": "maths-installment-1",
+          "lectureNo": 1,
+          "title": "01. Installment Class 01 2023-02-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84483ed5dab4b99a972781",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84484ad5dab4b99a972783",
+          "pdfTitle": "01. Installment Class 01 2023-02-11 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-surds-and-indices",
+      "name": "Maths - SURDS AND INDICES",
+      "lectureCount": 3,
+      "videoCount": 3,
+      "pdfCount": 3,
+      "lectures": [
+        {
+          "id": "maths-surds-and-indices-1",
+          "lectureNo": 1,
+          "title": "01. Surds Class 1 2022-12-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844857d5dab4b99a972785",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844860d5dab4b99a972787",
+          "pdfTitle": "01. Surds Class 1 2022-12-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-surds-and-indices-2",
+          "lectureNo": 2,
+          "title": "02. Surds Class 2 2022-12-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844872d5dab4b99a97278b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84487cd5dab4b99a97278d",
+          "pdfTitle": "02. Surds Class 2 2022-12-28 Bhumi PDF"
+        },
+        {
+          "id": "maths-surds-and-indices-3",
+          "lectureNo": 3,
+          "title": "03. Surds Class 03 2022-12-28 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844888d5dab4b99a97278f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844891d5dab4b99a972791",
+          "pdfTitle": "03. Surds Class 03 2022-12-28 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-profit-and-loss",
+      "name": "Maths - Profit and Loss",
+      "lectureCount": 4,
+      "videoCount": 4,
+      "pdfCount": 4,
+      "lectures": [
+        {
+          "id": "maths-profit-and-loss-1",
+          "lectureNo": 1,
+          "title": "01. Profit and Loss Class 01 2023-02-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844899d5dab4b99a972793",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448a2d5dab4b99a972795",
+          "pdfTitle": "01. Profit and Loss Class 01 2023-02-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-profit-and-loss-2",
+          "lectureNo": 2,
+          "title": "02. Profit and Loss Class 02 2023-02-13 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448b8d5dab4b99a972799",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448c2d5dab4b99a97279b",
+          "pdfTitle": "02. Profit and Loss Class 02 2023-02-13 Bhumi PDF"
+        },
+        {
+          "id": "maths-profit-and-loss-3",
+          "lectureNo": 3,
+          "title": "03. Profit and Loss Class 03 2023-02-14 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448d0d5dab4b99a97279d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448ddd5dab4b99a97279f",
+          "pdfTitle": "03. Profit and Loss Class 03 2023-02-14 Bhumi PDF"
+        },
+        {
+          "id": "maths-profit-and-loss-4",
+          "lectureNo": 4,
+          "title": "04. Profit and Loss 04 2023-02-14 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448ead5dab4b99a9727a1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8448f6d5dab4b99a9727a3",
+          "pdfTitle": "04. Profit and Loss 04 2023-02-14 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-number-system",
+      "name": "Maths - NUMBER SYSTEM",
+      "lectureCount": 12,
+      "videoCount": 12,
+      "pdfCount": 12,
+      "lectures": [
+        {
+          "id": "maths-number-system-1",
+          "lectureNo": 1,
+          "title": "01. Number System Class 01 2023-08-10 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84490cd5dab4b99a9727a7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844916d5dab4b99a9727a9",
+          "pdfTitle": "01. Number System Class 01 2023-08-10 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-2",
+          "lectureNo": 2,
+          "title": "02. Number System Class 02 2023-08-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844923d5dab4b99a9727ab",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84492dd5dab4b99a9727ad",
+          "pdfTitle": "02. Number System Class 02 2023-08-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-3",
+          "lectureNo": 3,
+          "title": "03. Number system class 03 2023-08-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84493ad5dab4b99a9727af",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844947d5dab4b99a9727b1",
+          "pdfTitle": "03. Number system class 03 2023-08-12 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-4",
+          "lectureNo": 4,
+          "title": "04. Number system class 04 2023-08-14 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844954d5dab4b99a9727b3",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844960d5dab4b99a9727b5",
+          "pdfTitle": "04. Number system class 04 2023-08-14 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-5",
+          "lectureNo": 5,
+          "title": "05. Number System class 05 2023-08-14 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84496bd5dab4b99a9727b7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844977d5dab4b99a9727b9",
+          "pdfTitle": "05. Number System class 05 2023-08-14 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-6",
+          "lectureNo": 6,
+          "title": "06. Number System Class 06 2023-08-16 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844984d5dab4b99a9727bb",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84498dd5dab4b99a9727bd",
+          "pdfTitle": "06. Number System Class 06 2023-08-16 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-7",
+          "lectureNo": 7,
+          "title": "07. Number system class 07 2023-08-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844997d5dab4b99a9727bf",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449a0d5dab4b99a9727c1",
+          "pdfTitle": "07. Number system class 07 2023-08-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-8",
+          "lectureNo": 8,
+          "title": "08. Number system class 08 2023-08-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449abd5dab4b99a9727c3",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449b8d5dab4b99a9727c5",
+          "pdfTitle": "08. Number system class 08 2023-08-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-9",
+          "lectureNo": 9,
+          "title": "09. Number system class 09 2023-08-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449c4d5dab4b99a9727c7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449cdd5dab4b99a9727c9",
+          "pdfTitle": "09. Number system class 09 2023-08-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-10",
+          "lectureNo": 10,
+          "title": "10. Number system latest update (Must do) 2025-11-07 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449d6d5dab4b99a9727cb",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449e0d5dab4b99a9727cd",
+          "pdfTitle": "10. Number system latest update (Must do) 2025-11-07 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-11",
+          "lectureNo": 11,
+          "title": "11. Optional Number system extra practice Part 1 2025-11-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8449f9d5dab4b99a9727d1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a06d5dab4b99a9727d3",
+          "pdfTitle": "11. Optional Number system extra practice Part 1 2025-11-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-number-system-12",
+          "lectureNo": 12,
+          "title": "12. Optional Number system extra practice Part 2 2025-11-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a1dd5dab4b99a9727d7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a2cd5dab4b99a9727d9",
+          "pdfTitle": "12. Optional Number system extra practice Part 2 2025-11-08 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-discount",
+      "name": "Maths - Discount",
+      "lectureCount": 3,
+      "videoCount": 3,
+      "pdfCount": 3,
+      "lectures": [
+        {
+          "id": "maths-discount-1",
+          "lectureNo": 1,
+          "title": "01. Discount Class 01 2023-02-15 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a4dd5dab4b99a9727df",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a59d5dab4b99a9727e1",
+          "pdfTitle": "01. Discount Class 01 2023-02-15 Bhumi PDF"
+        },
+        {
+          "id": "maths-discount-2",
+          "lectureNo": 2,
+          "title": "02. Discount class 02 2023-02-15 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a62d5dab4b99a9727e3",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a6cd5dab4b99a9727e5",
+          "pdfTitle": "02. Discount class 02 2023-02-15 Bhumi PDF"
+        },
+        {
+          "id": "maths-discount-3",
+          "lectureNo": 3,
+          "title": "03. Discount Class 03 2023-02-15 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a78d5dab4b99a9727e7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a83d5dab4b99a9727e9",
+          "pdfTitle": "03. Discount Class 03 2023-02-15 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-percentage",
+      "name": "Maths - Percentage",
+      "lectureCount": 8,
+      "videoCount": 8,
+      "pdfCount": 7,
+      "lectures": [
+        {
+          "id": "maths-percentage-1",
+          "lectureNo": 1,
+          "title": "01. Percentage Class 01 2023-02-06 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844a98d5dab4b99a9727ed",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844aa4d5dab4b99a9727ef",
+          "pdfTitle": "01. Percentage Class 01 2023-02-06 Bhumi PDF"
+        },
+        {
+          "id": "maths-percentage-2",
+          "lectureNo": 2,
+          "title": "02. Percentage Class 02 Part 1 2023-02-07 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844aded5dab4b99a9727f9",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-percentage-3",
+          "lectureNo": 3,
+          "title": "02. Percentage Class 02 Part 2 2023-02-07 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844aead5dab4b99a9727fb",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844af5d5dab4b99a9727fd",
+          "pdfTitle": "02. Percentage Class 02 Part 2 2023-02-07 Bhumi PDF"
+        },
+        {
+          "id": "maths-percentage-4",
+          "lectureNo": 4,
+          "title": "03. Percentage Class 03 2023-02-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b01d5dab4b99a9727ff",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b0dd5dab4b99a972801",
+          "pdfTitle": "03. Percentage Class 03 2023-02-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-percentage-5",
+          "lectureNo": 5,
+          "title": "04. Percentage Class 04 2023-02-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b19d5dab4b99a972803",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b23d5dab4b99a972805",
+          "pdfTitle": "04. Percentage Class 04 2023-02-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-percentage-6",
+          "lectureNo": 6,
+          "title": "05. Percentage class 05 2025-12-06 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b2cd5dab4b99a972807",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b38d5dab4b99a972809",
+          "pdfTitle": "05. Percentage class 05 2025-12-06 Bhumi PDF"
+        },
+        {
+          "id": "maths-percentage-7",
+          "lectureNo": 7,
+          "title": "06. Optional Percentage Extra practice Part 1 2025-12-08 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b4fd5dab4b99a97280d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b5ad5dab4b99a97280f",
+          "pdfTitle": "06. Optional Percentage Extra practice Part 1 2025-12-08 Bhumi PDF"
+        },
+        {
+          "id": "maths-percentage-8",
+          "lectureNo": 8,
+          "title": "07. Optional Percentage Extra practice Part 2 2025-12-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b72d5dab4b99a972813",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b7fd5dab4b99a972815",
+          "pdfTitle": "07. Optional Percentage Extra practice Part 2 2025-12-09 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-ratio-and-proportion",
+      "name": "Maths - RATIO AND PROPORTION",
+      "lectureCount": 5,
+      "videoCount": 5,
+      "pdfCount": 5,
+      "lectures": [
+        {
+          "id": "maths-ratio-and-proportion-1",
+          "lectureNo": 1,
+          "title": "01. Ratio & Proportion Class 01 2023-09-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844b97d5dab4b99a972819",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ba7d5dab4b99a97281b",
+          "pdfTitle": "01. Ratio & Proportion Class 01 2023-09-09 Bhumi PDF"
+        },
+        {
+          "id": "maths-ratio-and-proportion-2",
+          "lectureNo": 2,
+          "title": "02. Ratio & Proportion class 02 2023-09-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844bc0d5dab4b99a97281f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844bcdd5dab4b99a972821",
+          "pdfTitle": "02. Ratio & Proportion class 02 2023-09-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-ratio-and-proportion-3",
+          "lectureNo": 3,
+          "title": "03. Ratio & Proportion class 03 2023-09-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844bd9d5dab4b99a972823",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844be3d5dab4b99a972825",
+          "pdfTitle": "03. Ratio & Proportion class 03 2023-09-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-ratio-and-proportion-4",
+          "lectureNo": 4,
+          "title": "04. Ratio & Proportion class 04 2023-09-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844befd5dab4b99a972827",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844bfad5dab4b99a972829",
+          "pdfTitle": "04. Ratio & Proportion class 04 2023-09-12 Bhumi PDF"
+        },
+        {
+          "id": "maths-ratio-and-proportion-5",
+          "lectureNo": 5,
+          "title": "05. Ratio & Proportion class 05 2023-09-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c03d5dab4b99a97282b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c0fd5dab4b99a97282d",
+          "pdfTitle": "05. Ratio & Proportion class 05 2023-09-12 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-partnership",
+      "name": "Maths - Partnership",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 1,
+      "lectures": [
+        {
+          "id": "maths-partnership-1",
+          "lectureNo": 1,
+          "title": "01. Partnership class 01 part 1 2023-09-13 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c19d5dab4b99a97282f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c26d5dab4b99a972831",
+          "pdfTitle": "01. Partnership class 01 part 1 2023-09-13 Bhumi PDF"
+        },
+        {
+          "id": "maths-partnership-2",
+          "lectureNo": 2,
+          "title": "02. Partnership class 01 part 2 2023-09-13 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c3dd5dab4b99a972835",
+          "pdfUrl": null,
+          "pdfTitle": null
+        }
+      ]
+    },
+    {
+      "id": "maths-mixture-alligation",
+      "name": "Maths - Mixture & Alligation",
+      "lectureCount": 8,
+      "videoCount": 8,
+      "pdfCount": 7,
+      "lectures": [
+        {
+          "id": "maths-mixture-alligation-1",
+          "lectureNo": 1,
+          "title": "Foundation batch content 2023-10-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c4ad5dab4b99a972837",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-mixture-alligation-2",
+          "lectureNo": 2,
+          "title": "01. Mixture and Alligation Class 01 2023-10-03 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c64d5dab4b99a97283b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c6fd5dab4b99a97283d",
+          "pdfTitle": "01. Mixture and Alligation Class 01 2023-10-03 Bhumi PDF"
+        },
+        {
+          "id": "maths-mixture-alligation-3",
+          "lectureNo": 3,
+          "title": "01. W,A & M Concept Lecture 1 2022-09-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c7bd5dab4b99a97283f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c86d5dab4b99a972841",
+          "pdfTitle": "01. W,A & M Concept Lecture 1 2022-09-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-mixture-alligation-4",
+          "lectureNo": 4,
+          "title": "02. Mixture and alligation Class 02 2023-10-03 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c91d5dab4b99a972843",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844c9dd5dab4b99a972845",
+          "pdfTitle": "02. Mixture and alligation Class 02 2023-10-03 Bhumi PDF"
+        },
+        {
+          "id": "maths-mixture-alligation-5",
+          "lectureNo": 5,
+          "title": "02. W,A & M Concept Lecture 2 2022-09-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ca8d5dab4b99a972847",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844cb6d5dab4b99a972849",
+          "pdfTitle": "02. W,A & M Concept Lecture 2 2022-09-29 Bhumi PDF"
+        },
+        {
+          "id": "maths-mixture-alligation-6",
+          "lectureNo": 6,
+          "title": "03. W,A & M Concept Lecture 3 2022-09-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844cc0d5dab4b99a97284b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ccad5dab4b99a97284d",
+          "pdfTitle": "03. W,A & M Concept Lecture 3 2022-09-29 Bhumi PDF"
+        },
+        {
+          "id": "maths-mixture-alligation-7",
+          "lectureNo": 7,
+          "title": "04. W,A & M Concept Lecture 4 2022-09-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844cd4d5dab4b99a97284f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844cdfd5dab4b99a972851",
+          "pdfTitle": "04. W,A & M Concept Lecture 4 2022-09-29 Bhumi PDF"
+        },
+        {
+          "id": "maths-mixture-alligation-8",
+          "lectureNo": 8,
+          "title": "05. W,A & M Concept Lecture 5 2022-09-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844cebd5dab4b99a972853",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844cf8d5dab4b99a972855",
+          "pdfTitle": "05. W,A & M Concept Lecture 5 2022-09-29 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-time-work-pipe-cistern",
+      "name": "Maths - Time & Work (Pipe & Cistern)",
+      "lectureCount": 3,
+      "videoCount": 3,
+      "pdfCount": 3,
+      "lectures": [
+        {
+          "id": "maths-time-work-pipe-cistern-1",
+          "lectureNo": 1,
+          "title": "01. Time and work Class 01 2023-02-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d26d5dab4b99a97285d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d31d5dab4b99a97285f",
+          "pdfTitle": "01. Time and work Class 01 2023-02-26 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-work-pipe-cistern-2",
+          "lectureNo": 2,
+          "title": "02. Time and work Class 02 2023-02-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d3ed5dab4b99a972861",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d4ed5dab4b99a972863",
+          "pdfTitle": "02. Time and work Class 02 2023-02-27 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-work-pipe-cistern-3",
+          "lectureNo": 3,
+          "title": "03. Time and work Top questions of 2024 SSC Exams 03 2024-11-16 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d5cd5dab4b99a972865",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d6fd5dab4b99a972869",
+          "pdfTitle": "03. Time and work Top questions of 2024 SSC Exams 03 2024-11-16 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-time-distance",
+      "name": "Maths - Time & Distance",
+      "lectureCount": 7,
+      "videoCount": 7,
+      "pdfCount": 7,
+      "lectures": [
+        {
+          "id": "maths-time-distance-1",
+          "lectureNo": 1,
+          "title": "01. Time speed distance Class 01 2023-02-16 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d87d5dab4b99a97286d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d90d5dab4b99a97286f",
+          "pdfTitle": "01. Time speed distance Class 01 2023-02-16 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-distance-2",
+          "lectureNo": 2,
+          "title": "02. Time speed distance Class 02 2023-02-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844d9cd5dab4b99a972871",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844da5d5dab4b99a972873",
+          "pdfTitle": "02. Time speed distance Class 02 2023-02-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-distance-3",
+          "lectureNo": 3,
+          "title": "03. Time Speed Distance Class 03 2023-02-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844dafd5dab4b99a972875",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844dbad5dab4b99a972877",
+          "pdfTitle": "03. Time Speed Distance Class 03 2023-02-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-distance-4",
+          "lectureNo": 4,
+          "title": "04. Time speed distance Class 04 2023-02-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844dc6d5dab4b99a972879",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844dd3d5dab4b99a97287b",
+          "pdfTitle": "04. Time speed distance Class 04 2023-02-18 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-distance-5",
+          "lectureNo": 5,
+          "title": "05. Time speed distance Class 05 2023-02-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844df1d5dab4b99a972881",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844dfbd5dab4b99a972883",
+          "pdfTitle": "05. Time speed distance Class 05 2023-02-19 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-distance-6",
+          "lectureNo": 6,
+          "title": "06. Time speed distance Class 06 2023-02-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e08d5dab4b99a972885",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e12d5dab4b99a972887",
+          "pdfTitle": "06. Time speed distance Class 06 2023-02-20 Bhumi PDF"
+        },
+        {
+          "id": "maths-time-distance-7",
+          "lectureNo": 7,
+          "title": "07. Time speed distance Class 07 2023-02-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e1fd5dab4b99a972889",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e2cd5dab4b99a97288b",
+          "pdfTitle": "07. Time speed distance Class 07 2023-02-20 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-data-interpretation",
+      "name": "Maths - Data Interpretation",
+      "lectureCount": 3,
+      "videoCount": 3,
+      "pdfCount": 3,
+      "lectures": [
+        {
+          "id": "maths-data-interpretation-1",
+          "lectureNo": 1,
+          "title": "01. DI Practice class 01 2023-10-16 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e3fd5dab4b99a97288f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e4ad5dab4b99a972891",
+          "pdfTitle": "01. DI Practice class 01 2023-10-16 Bhumi PDF"
+        },
+        {
+          "id": "maths-data-interpretation-2",
+          "lectureNo": 2,
+          "title": "02. DI practice class 02 2023-10-16 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e56d5dab4b99a972893",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e63d5dab4b99a972895",
+          "pdfTitle": "02. DI practice class 02 2023-10-16 Bhumi PDF"
+        },
+        {
+          "id": "maths-data-interpretation-3",
+          "lectureNo": 3,
+          "title": "03. DI practice class 03 2023-10-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e71d5dab4b99a972897",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e7fd5dab4b99a972899",
+          "pdfTitle": "03. DI practice class 03 2023-10-18 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-algebra",
+      "name": "Maths - Algebra",
+      "lectureCount": 11,
+      "videoCount": 11,
+      "pdfCount": 11,
+      "lectures": [
+        {
+          "id": "maths-algebra-1",
+          "lectureNo": 1,
+          "title": "01. Algebra Class 1 2022-12-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844e9cd5dab4b99a97289d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ea8d5dab4b99a97289f",
+          "pdfTitle": "01. Algebra Class 1 2022-12-19 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-2",
+          "lectureNo": 2,
+          "title": "02. Algebra class 2 2022-12-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844eb2d5dab4b99a9728a1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ebfd5dab4b99a9728a3",
+          "pdfTitle": "02. Algebra class 2 2022-12-19 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-3",
+          "lectureNo": 3,
+          "title": "03. Algebra Class 3 2022-12-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ec8d5dab4b99a9728a5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ed2d5dab4b99a9728a7",
+          "pdfTitle": "03. Algebra Class 3 2022-12-20 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-4",
+          "lectureNo": 4,
+          "title": "04. Algebra Class 4 2022-12-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844eddd5dab4b99a9728a9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ee8d5dab4b99a9728ab",
+          "pdfTitle": "04. Algebra Class 4 2022-12-21 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-5",
+          "lectureNo": 5,
+          "title": "05. Algebra Class 5 2022-12-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ef3d5dab4b99a9728ad",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844efcd5dab4b99a9728af",
+          "pdfTitle": "05. Algebra Class 5 2022-12-21 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-6",
+          "lectureNo": 6,
+          "title": "06. Algebra Class 6 2022-12-22 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f06d5dab4b99a9728b1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f11d5dab4b99a9728b3",
+          "pdfTitle": "06. Algebra Class 6 2022-12-22 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-7",
+          "lectureNo": 7,
+          "title": "07. Algebra Class 7 2022-12-23 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f1cd5dab4b99a9728b5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f26d5dab4b99a9728b7",
+          "pdfTitle": "07. Algebra Class 7 2022-12-23 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-8",
+          "lectureNo": 8,
+          "title": "08. Algebra class 8 2022-12-23 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f31d5dab4b99a9728b9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f3bd5dab4b99a9728bb",
+          "pdfTitle": "08. Algebra class 8 2022-12-23 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-9",
+          "lectureNo": 9,
+          "title": "09. Algebra latest update must do 2025-10-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f46d5dab4b99a9728bd",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f51d5dab4b99a9728bf",
+          "pdfTitle": "09. Algebra latest update must do 2025-10-31 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-10",
+          "lectureNo": 10,
+          "title": "10. Optional Algebra extra practice (part 1) 2025-11-01 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f66d5dab4b99a9728c3",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f72d5dab4b99a9728c5",
+          "pdfTitle": "10. Optional Algebra extra practice (part 1) 2025-11-01 Bhumi PDF"
+        },
+        {
+          "id": "maths-algebra-11",
+          "lectureNo": 11,
+          "title": "11. Optional Algebra extra practice (part 2) 2025-11-03 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f85d5dab4b99a9728c9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844f8fd5dab4b99a9728cb",
+          "pdfTitle": "11. Optional Algebra extra practice (part 2) 2025-11-03 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-equations",
+      "name": "Maths - Equations",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 2,
+      "lectures": [
+        {
+          "id": "maths-equations-1",
+          "lectureNo": 1,
+          "title": "Equations class 1 2022-12-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844fb1d5dab4b99a9728d1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844fbed5dab4b99a9728d3",
+          "pdfTitle": "Equations class 1 2022-12-26 Bhumi PDF"
+        },
+        {
+          "id": "maths-equations-2",
+          "lectureNo": 2,
+          "title": "02. Equation Class 2 2022-12-27 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844fcbd5dab4b99a9728d5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844fd5d5dab4b99a9728d7",
+          "pdfTitle": "02. Equation Class 2 2022-12-27 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-ap-gp-hp",
+      "name": "Maths - AP, GP, HP",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 2,
+      "lectures": [
+        {
+          "id": "maths-ap-gp-hp-1",
+          "lectureNo": 1,
+          "title": "01 AP, GP, HP class 01 2023-09-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844fecd5dab4b99a9728db",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a844ff9d5dab4b99a9728dd",
+          "pdfTitle": "01 AP, GP, HP class 01 2023-09-18 Bhumi PDF"
+        },
+        {
+          "id": "maths-ap-gp-hp-2",
+          "lectureNo": 2,
+          "title": "02 AP, GP, HP Class 02 2023-09-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845005d5dab4b99a9728df",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845012d5dab4b99a9728e1",
+          "pdfTitle": "02 AP, GP, HP Class 02 2023-09-18 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-average",
+      "name": "Maths - AVERAGE",
+      "lectureCount": 5,
+      "videoCount": 5,
+      "pdfCount": 5,
+      "lectures": [
+        {
+          "id": "maths-average-1",
+          "lectureNo": 1,
+          "title": "01. Average Class 01 2023-02-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84502bd5dab4b99a9728e5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845036d5dab4b99a9728e7",
+          "pdfTitle": "01. Average Class 01 2023-02-21 Bhumi PDF"
+        },
+        {
+          "id": "maths-average-2",
+          "lectureNo": 2,
+          "title": "02. Average Class 02 2023-02-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84503fd5dab4b99a9728e9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845048d5dab4b99a9728eb",
+          "pdfTitle": "02. Average Class 02 2023-02-21 Bhumi PDF"
+        },
+        {
+          "id": "maths-average-3",
+          "lectureNo": 3,
+          "title": "03. Average Class 03 2023-02-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84506dd5dab4b99a9728f1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84507bd5dab4b99a9728f3",
+          "pdfTitle": "03. Average Class 03 2023-02-21 Bhumi PDF"
+        },
+        {
+          "id": "maths-average-4",
+          "lectureNo": 4,
+          "title": "04. Average Class 04 2023-02-22 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84509ed5dab4b99a9728f9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8450a9d5dab4b99a9728fb",
+          "pdfTitle": "04. Average Class 04 2023-02-22 Bhumi PDF"
+        },
+        {
+          "id": "maths-average-5",
+          "lectureNo": 5,
+          "title": "05. Average Class 05 2023-02-22 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8450c6d5dab4b99a972901",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8450d0d5dab4b99a972903",
+          "pdfTitle": "05. Average Class 05 2023-02-22 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-simplification",
+      "name": "Maths - Simplification",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 2,
+      "lectures": [
+        {
+          "id": "maths-simplification-1",
+          "lectureNo": 1,
+          "title": "01. Simplification Class 1 2022-12-29 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8450e5d5dab4b99a972907",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8450efd5dab4b99a972909",
+          "pdfTitle": "01. Simplification Class 1 2022-12-29 Bhumi PDF"
+        },
+        {
+          "id": "maths-simplification-2",
+          "lectureNo": 2,
+          "title": "02. Simplification Class 2 2022-12-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8450f9d5dab4b99a97290b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845107d5dab4b99a97290d",
+          "pdfTitle": "02. Simplification Class 2 2022-12-30 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-plane-geometry",
+      "name": "Maths - Plane Geometry",
+      "lectureCount": 20,
+      "videoCount": 20,
+      "pdfCount": 20,
+      "lectures": [
+        {
+          "id": "maths-plane-geometry-1",
+          "lectureNo": 1,
+          "title": "0.1 Geometry Class 1 2022-12-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845113d5dab4b99a97290f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84511fd5dab4b99a972911",
+          "pdfTitle": "0.1 Geometry Class 1 2022-12-31 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-2",
+          "lectureNo": 2,
+          "title": "02. Geometry Class 2 2023-01-01 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845133d5dab4b99a972915",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84513cd5dab4b99a972917",
+          "pdfTitle": "02. Geometry Class 2 2023-01-01 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-3",
+          "lectureNo": 3,
+          "title": "03. Geometry Class 3 2023-01-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845149d5dab4b99a972919",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845154d5dab4b99a97291b",
+          "pdfTitle": "03. Geometry Class 3 2023-01-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-4",
+          "lectureNo": 4,
+          "title": "04. Geometry Class 4 2023-01-02 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84515fd5dab4b99a97291d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84516ad5dab4b99a97291f",
+          "pdfTitle": "04. Geometry Class 4 2023-01-02 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-5",
+          "lectureNo": 5,
+          "title": "05. Geometry Class 5 2023-01-03 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845175d5dab4b99a972921",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845183d5dab4b99a972923",
+          "pdfTitle": "05. Geometry Class 5 2023-01-03 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-6",
+          "lectureNo": 6,
+          "title": "06. Geometry Class 6 2023-01-03 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84518dd5dab4b99a972925",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845198d5dab4b99a972927",
+          "pdfTitle": "06. Geometry Class 6 2023-01-03 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-7",
+          "lectureNo": 7,
+          "title": "07. Geometry Class 7 2023-01-04 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451a4d5dab4b99a972929",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451afd5dab4b99a97292b",
+          "pdfTitle": "07. Geometry Class 7 2023-01-04 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-8",
+          "lectureNo": 8,
+          "title": "08. Geometry Class 8 2023-01-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451bbd5dab4b99a97292d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451c5d5dab4b99a97292f",
+          "pdfTitle": "08. Geometry Class 8 2023-01-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-9",
+          "lectureNo": 9,
+          "title": "09. Geometry Class 9 2023-01-06 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451d3d5dab4b99a972931",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451ddd5dab4b99a972933",
+          "pdfTitle": "09. Geometry Class 9 2023-01-06 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-10",
+          "lectureNo": 10,
+          "title": "10. Geometry class 10 2023-01-06 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451e7d5dab4b99a972935",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451f2d5dab4b99a972937",
+          "pdfTitle": "10. Geometry class 10 2023-01-06 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-11",
+          "lectureNo": 11,
+          "title": "11. Geometry Class 11 2023-01-07 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8451fbd5dab4b99a972939",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845209d5dab4b99a97293b",
+          "pdfTitle": "11. Geometry Class 11 2023-01-07 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-12",
+          "lectureNo": 12,
+          "title": "12. Geometry Class 12 2023-01-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845213d5dab4b99a97293d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845220d5dab4b99a97293f",
+          "pdfTitle": "12. Geometry Class 12 2023-01-09 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-13",
+          "lectureNo": 13,
+          "title": "13. Geometry Class 13 2023-01-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84522cd5dab4b99a972941",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845239d5dab4b99a972943",
+          "pdfTitle": "13. Geometry Class 13 2023-01-09 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-14",
+          "lectureNo": 14,
+          "title": "14. Geometry Class 14 2023-01-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84525fd5dab4b99a972949",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845269d5dab4b99a97294b",
+          "pdfTitle": "14. Geometry Class 14 2023-01-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-15",
+          "lectureNo": 15,
+          "title": "15. Geometry Class 15 2023-01-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845277d5dab4b99a97294d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845280d5dab4b99a97294f",
+          "pdfTitle": "15. Geometry Class 15 2023-01-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-16",
+          "lectureNo": 16,
+          "title": "16. Geometry Class 16 2023-01-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84528ad5dab4b99a972951",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845294d5dab4b99a972953",
+          "pdfTitle": "16. Geometry Class 16 2023-01-12 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-17",
+          "lectureNo": 17,
+          "title": "17. Geometry Class 17 2023-01-12 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84529dd5dab4b99a972955",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452a9d5dab4b99a972957",
+          "pdfTitle": "17. Geometry Class 17 2023-01-12 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-18",
+          "lectureNo": 18,
+          "title": "18. Plane geometry latest update Must do 2025-11-23 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452b5d5dab4b99a972959",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452bed5dab4b99a97295b",
+          "pdfTitle": "18. Plane geometry latest update Must do 2025-11-23 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-19",
+          "lectureNo": 19,
+          "title": "19. Optional Plane Geometry Extra practice Part 1 2025-11-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452c9d5dab4b99a97295d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452d5d5dab4b99a97295f",
+          "pdfTitle": "19. Optional Plane Geometry Extra practice Part 1 2025-11-26 Bhumi PDF"
+        },
+        {
+          "id": "maths-plane-geometry-20",
+          "lectureNo": 20,
+          "title": "20. Optional Plane Geometry extra practice Part 2 2025-11-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452e8d5dab4b99a972963",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8452f3d5dab4b99a972965",
+          "pdfTitle": "20. Optional Plane Geometry extra practice Part 2 2025-11-26 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-mensuration-2d",
+      "name": "Maths - Mensuration 2D",
+      "lectureCount": 10,
+      "videoCount": 10,
+      "pdfCount": 10,
+      "lectures": [
+        {
+          "id": "maths-mensuration-2d-1",
+          "lectureNo": 1,
+          "title": "01. Mensuration 2D Class 1 2023-01-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845316d5dab4b99a97296b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845321d5dab4b99a97296d",
+          "pdfTitle": "01. Mensuration 2D Class 1 2023-01-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-2",
+          "lectureNo": 2,
+          "title": "02. Mensuration 2D Class 02 2023-01-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84532ed5dab4b99a97296f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845338d5dab4b99a972971",
+          "pdfTitle": "02. Mensuration 2D Class 02 2023-01-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-3",
+          "lectureNo": 3,
+          "title": "03. Mensuration 2D Class 3 2023-01-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845345d5dab4b99a972973",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845350d5dab4b99a972975",
+          "pdfTitle": "03. Mensuration 2D Class 3 2023-01-18 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-4",
+          "lectureNo": 4,
+          "title": "04. Mensuration 2D Class 4 2023-01-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845359d5dab4b99a972977",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845366d5dab4b99a972979",
+          "pdfTitle": "04. Mensuration 2D Class 4 2023-01-18 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-5",
+          "lectureNo": 5,
+          "title": "05. Mensuration 2D Class 5 2023-01-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845372d5dab4b99a97297b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84537fd5dab4b99a97297d",
+          "pdfTitle": "05. Mensuration 2D Class 5 2023-01-19 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-6",
+          "lectureNo": 6,
+          "title": "6. Mensuration 2D Class 6 2023-01-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84538cd5dab4b99a97297f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845398d5dab4b99a972981",
+          "pdfTitle": "6. Mensuration 2D Class 6 2023-01-19 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-7",
+          "lectureNo": 7,
+          "title": "07. Mensuration 2D Class 7 2023-01-19 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453a2d5dab4b99a972983",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453aed5dab4b99a972985",
+          "pdfTitle": "07. Mensuration 2D Class 7 2023-01-19 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-8",
+          "lectureNo": 8,
+          "title": "08. Mensuration 2D Class 8 2023-01-20 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453bcd5dab4b99a972987",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453c9d5dab4b99a972989",
+          "pdfTitle": "08. Mensuration 2D Class 8 2023-01-20 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-9",
+          "lectureNo": 9,
+          "title": "09. Mensuration 2D Class 9 2023-01-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453d7d5dab4b99a97298b",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453e1d5dab4b99a97298d",
+          "pdfTitle": "09. Mensuration 2D Class 9 2023-01-21 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-2d-10",
+          "lectureNo": 10,
+          "title": "10. Mensuration 2D Class 10 2023-01-23 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453ead5dab4b99a97298f",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8453f4d5dab4b99a972991",
+          "pdfTitle": "10. Mensuration 2D Class 10 2023-01-23 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-mensuration-3d",
+      "name": "Maths - Mensuration 3D",
+      "lectureCount": 6,
+      "videoCount": 6,
+      "pdfCount": 6,
+      "lectures": [
+        {
+          "id": "maths-mensuration-3d-1",
+          "lectureNo": 1,
+          "title": "01. Mensuration 3D Class 1 2023-01-23 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84540bd5dab4b99a972995",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845416d5dab4b99a972997",
+          "pdfTitle": "01. Mensuration 3D Class 1 2023-01-23 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-3d-2",
+          "lectureNo": 2,
+          "title": "02. Mensuration 3D Class 2 2023-01-24 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845420d5dab4b99a972999",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84542dd5dab4b99a97299b",
+          "pdfTitle": "02. Mensuration 3D Class 2 2023-01-24 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-3d-3",
+          "lectureNo": 3,
+          "title": "03. Mensuration 3D Class 3 2023-01-25 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845439d5dab4b99a97299d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845442d5dab4b99a97299f",
+          "pdfTitle": "03. Mensuration 3D Class 3 2023-01-25 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-3d-4",
+          "lectureNo": 4,
+          "title": "04. Mensuration 3D Class 4 2023-01-25 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84544fd5dab4b99a9729a1",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84545bd5dab4b99a9729a3",
+          "pdfTitle": "04. Mensuration 3D Class 4 2023-01-25 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-3d-5",
+          "lectureNo": 5,
+          "title": "05. Mensuration 3D Class 5 2023-01-26 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845468d5dab4b99a9729a5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845470d5dab4b99a9729a7",
+          "pdfTitle": "05. Mensuration 3D Class 5 2023-01-26 Bhumi PDF"
+        },
+        {
+          "id": "maths-mensuration-3d-6",
+          "lectureNo": 6,
+          "title": "06. Mensuration 3D Latest Update (Must do) 2026-02-23 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84547dd5dab4b99a9729a9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845489d5dab4b99a9729ab",
+          "pdfTitle": "06. Mensuration 3D Latest Update (Must do) 2026-02-23 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-height-and-distance",
+      "name": "Maths - Height and Distance",
+      "lectureCount": 2,
+      "videoCount": 2,
+      "pdfCount": 2,
+      "lectures": [
+        {
+          "id": "maths-height-and-distance-1",
+          "lectureNo": 1,
+          "title": "01. Height And Distance Class 01 2023-02-04 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8454a1d5dab4b99a9729af",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8454abd5dab4b99a9729b1",
+          "pdfTitle": "01. Height And Distance Class 01 2023-02-04 Bhumi PDF"
+        },
+        {
+          "id": "maths-height-and-distance-2",
+          "lectureNo": 2,
+          "title": "02. Height and distance Class 02 2023-02-06 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8454b6d5dab4b99a9729b3",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8454c0d5dab4b99a9729b5",
+          "pdfTitle": "02. Height and distance Class 02 2023-02-06 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-coordinate-geometry",
+      "name": "Maths - Coordinate Geometry",
+      "lectureCount": 5,
+      "videoCount": 5,
+      "pdfCount": 5,
+      "lectures": [
+        {
+          "id": "maths-coordinate-geometry-1",
+          "lectureNo": 1,
+          "title": "01 Coordinate geometry class 01 2023-10-17 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8454eed5dab4b99a9729bd",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8454fbd5dab4b99a9729bf",
+          "pdfTitle": "01 Coordinate geometry class 01 2023-10-17 Bhumi PDF"
+        },
+        {
+          "id": "maths-coordinate-geometry-2",
+          "lectureNo": 2,
+          "title": "02 Coordinate geometry class 02 2023-10-18 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845513d5dab4b99a9729c3",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84551fd5dab4b99a9729c5",
+          "pdfTitle": "02 Coordinate geometry class 02 2023-10-18 Bhumi PDF"
+        },
+        {
+          "id": "maths-coordinate-geometry-3",
+          "lectureNo": 3,
+          "title": "03 Coordinate geometry class 03 2024-10-25 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84553ad5dab4b99a9729c9",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845544d5dab4b99a9729cb",
+          "pdfTitle": "03 Coordinate geometry class 03 2024-10-25 Bhumi PDF"
+        },
+        {
+          "id": "maths-coordinate-geometry-4",
+          "lectureNo": 4,
+          "title": "04 Coordinate geometry class 04 2024-10-25 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84555ad5dab4b99a9729cf",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845567d5dab4b99a9729d1",
+          "pdfTitle": "04 Coordinate geometry class 04 2024-10-25 Bhumi PDF"
+        },
+        {
+          "id": "maths-coordinate-geometry-5",
+          "lectureNo": 5,
+          "title": "05. Coordinate geometry class 05 2024-10-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84557fd5dab4b99a9729d5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845588d5dab4b99a9729d7",
+          "pdfTitle": "05. Coordinate geometry class 05 2024-10-31 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-statistics",
+      "name": "Maths - Statistics",
+      "lectureCount": 4,
+      "videoCount": 4,
+      "pdfCount": 4,
+      "lectures": [
+        {
+          "id": "maths-statistics-1",
+          "lectureNo": 1,
+          "title": "01. Statistics Class 01 2023-08-09 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8455d8d5dab4b99a9729e7",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8455e6d5dab4b99a9729e9",
+          "pdfTitle": "01. Statistics Class 01 2023-08-09 Bhumi PDF"
+        },
+        {
+          "id": "maths-statistics-2",
+          "lectureNo": 2,
+          "title": "02. Statistics class 02 2024-10-03 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8455efd5dab4b99a9729eb",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8455fad5dab4b99a9729ed",
+          "pdfTitle": "02. Statistics class 02 2024-10-03 Bhumi PDF"
+        },
+        {
+          "id": "maths-statistics-3",
+          "lectureNo": 3,
+          "title": "03. Statistics Latest Update 2026-02-06 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845608d5dab4b99a9729ef",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845611d5dab4b99a9729f1",
+          "pdfTitle": "03. Statistics Latest Update 2026-02-06 Bhumi PDF"
+        },
+        {
+          "id": "maths-statistics-4",
+          "lectureNo": 4,
+          "title": "04. (Optional) Statistics extra practice 2025-10-21 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845629d5dab4b99a9729f5",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845632d5dab4b99a9729f7",
+          "pdfTitle": "04. (Optional) Statistics extra practice 2025-10-21 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-permutation-combination",
+      "name": "Maths - Permutation & Combination",
+      "lectureCount": 6,
+      "videoCount": 6,
+      "pdfCount": 6,
+      "lectures": [
+        {
+          "id": "maths-permutation-combination-1",
+          "lectureNo": 1,
+          "title": "01. Permutation and combination class 1 2023-07-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845652d5dab4b99a9729fd",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84565cd5dab4b99a9729ff",
+          "pdfTitle": "01. Permutation and combination class 1 2023-07-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-permutation-combination-2",
+          "lectureNo": 2,
+          "title": "02. Permutation and combination class 2 2023-07-30 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845665d5dab4b99a972a01",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84566ed5dab4b99a972a03",
+          "pdfTitle": "02. Permutation and combination class 2 2023-07-30 Bhumi PDF"
+        },
+        {
+          "id": "maths-permutation-combination-3",
+          "lectureNo": 3,
+          "title": "03. Permutation and Combination Class 3 2023-07-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845679d5dab4b99a972a05",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845683d5dab4b99a972a07",
+          "pdfTitle": "03. Permutation and Combination Class 3 2023-07-31 Bhumi PDF"
+        },
+        {
+          "id": "maths-permutation-combination-4",
+          "lectureNo": 4,
+          "title": "04. Permutation and combination Class 4 2023-07-31 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84568cd5dab4b99a972a09",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845699d5dab4b99a972a0b",
+          "pdfTitle": "04. Permutation and combination Class 4 2023-07-31 Bhumi PDF"
+        },
+        {
+          "id": "maths-permutation-combination-5",
+          "lectureNo": 5,
+          "title": "05. Permutation and combination Class 5 2023-08-01 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456a4d5dab4b99a972a0d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456aed5dab4b99a972a0f",
+          "pdfTitle": "05. Permutation and combination Class 5 2023-08-01 Bhumi PDF"
+        },
+        {
+          "id": "maths-permutation-combination-6",
+          "lectureNo": 6,
+          "title": "06. Permutation and combination class 6 2023-08-01 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456b8d5dab4b99a972a11",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456c6d5dab4b99a972a13",
+          "pdfTitle": "06. Permutation and combination class 6 2023-08-01 Bhumi PDF"
+        }
+      ]
+    },
+    {
+      "id": "maths-new-concepts-by-eduquity",
+      "name": "Maths - New Concepts by Eduquity",
+      "lectureCount": 5,
+      "videoCount": 5,
+      "pdfCount": 4,
+      "lectures": [
+        {
+          "id": "maths-new-concepts-by-eduquity-1",
+          "lectureNo": 1,
+          "title": "Watch this video before going ahead 2025-10-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456d0d5dab4b99a972a15",
+          "pdfUrl": null,
+          "pdfTitle": null
+        },
+        {
+          "id": "maths-new-concepts-by-eduquity-2",
+          "lectureNo": 2,
+          "title": "01. Probability (Monty hall) (Not that Much Relevant but PYQ) 2025-10-05 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456dbd5dab4b99a972a17",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456e8d5dab4b99a972a19",
+          "pdfTitle": "01. Probability (Monty hall) (Not that Much Relevant but PYQ) 2025-10-05 Bhumi PDF"
+        },
+        {
+          "id": "maths-new-concepts-by-eduquity-3",
+          "lectureNo": 3,
+          "title": "02. Statistics (Quartiles etc) (Not that Much Relevant but PYQ) 2025-10-11 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a8456ffd5dab4b99a972a1d",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84570bd5dab4b99a972a1f",
+          "pdfTitle": "02. Statistics (Quartiles etc) (Not that Much Relevant but PYQ) 2025-10-11 Bhumi PDF"
+        },
+        {
+          "id": "maths-new-concepts-by-eduquity-4",
+          "lectureNo": 4,
+          "title": "03. Statistics coefficient of skewness (Not that Much Relevant but PYQ) 2025-10-13 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845720d5dab4b99a972a23",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845729d5dab4b99a972a25",
+          "pdfTitle": "03. Statistics coefficient of skewness (Not that Much Relevant but PYQ) 2025-10-13 Bhumi PDF"
+        },
+        {
+          "id": "maths-new-concepts-by-eduquity-5",
+          "lectureNo": 5,
+          "title": "04.Number system Base conversion (Not that Much Relevant but PYQ) 2025-10-13 Bhumi",
+          "videoUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a845743d5dab4b99a972a29",
+          "pdfUrl": "https://fs1bold-frost-42033611-da83ade26f8d.herokuapp.com/dl/6a84574cd5dab4b99a972a2b",
+          "pdfTitle": "04.Number system Base conversion (Not that Much Relevant but PYQ) 2025-10-13 Bhumi PDF"
         }
       ]
     }
