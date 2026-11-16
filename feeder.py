@@ -7,7 +7,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 from pyrogram import Client
 from pyrogram.types import Message
 
-# ================= DUMMY HEALTH SERVER (Render ke liye zaroori) =================
+# ================= DUMMY HEALTH SERVER (Render / Cloud hosting) =================
 class HealthHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
@@ -28,8 +28,8 @@ API_HASH = os.environ.get("API_HASH", "814108c4c350f0fbf4925e3928d3fdb0")
 SESSION_STRING = os.environ.get("SESSION_STRING", "")
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Notescarrier_url_upload_bot")
-JSON_FILE = "nirman2026.json"
-TAG_PREFIX = "[NIRMAN_DONE]"
+JSON_FILE = "onlyStationMaster.json"
+TAG_PREFIX = "[STATION_MASTER_DONE]"
 
 def clean_filename(name: str) -> str:
     name = re.sub(r'[\\/*?:"<>|]', '', name)
@@ -39,44 +39,43 @@ def load_tasks_from_json(filepath: str) -> list:
     if not os.path.exists(filepath):
         print(f"❌ File not found: {filepath}")
         return []
+        
     with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    batch_title = data.get("title", "Nirman Batch 2026")
+    # Top-level key fetch (e.g., "local-9")
+    batch_data = next(iter(data.values())) if isinstance(data, dict) else {}
+    
+    batch_info = batch_data.get("info", {})
+    batch_title = batch_info.get("title", "Station Master Batch 2026")
+    
+    # Topic groups list
+    topic_groups = batch_data.get("classes", {}).get("classes", [])
     tasks = []
 
-    for subject in data.get("subjects", []):
-        topic = subject.get("name", "General")
-        for lec in subject.get("lectures", []):
-            lec_no = lec.get("lectureNo", "")
-            lec_title = lec.get("title", "Lecture")
-            
-            # Video Task
-            v_url = lec.get("videoUrl")
-            if v_url and v_url.strip():
-                v_title = f"{topic} - Lec {lec_no}: {lec_title}" if lec_no else f"{topic} - {lec_title}"
-                v_title = clean_filename(v_title)
+    for topic_group in topic_groups:
+        topic_name = topic_group.get("topicName", "General")
+        class_items = topic_group.get("classes", [])
+
+        for cls in class_items:
+            cls_title = cls.get("title", "Lecture")
+            recordings = cls.get("mp4Recordings", [])
+
+            # Kewal video upload ke liye
+            for rec in recordings:
+                v_url = rec.get("url", "").strip()
+                if not v_url:
+                    continue
+
+                # Clean Title & Filename format
+                v_title = clean_filename(f"{topic_name} - {cls_title}")
                 tasks.append({
                     "type": "video",
-                    "url": v_url.strip(),
+                    "url": v_url,
                     "title": v_title,
-                    "topic": topic,
+                    "topic": topic_name,
                     "batch": batch_title,
                     "filename": f"{v_title}.mp4"
-                })
-                
-            # PDF Task
-            p_url = lec.get("pdfUrl")
-            if p_url and p_url.strip():
-                p_title = lec.get("pdfTitle") or f"{lec_title} Notes"
-                full_p_title = clean_filename(f"{topic} - {p_title}")
-                tasks.append({
-                    "type": "pdf",
-                    "url": p_url.strip(),
-                    "title": full_p_title,
-                    "topic": topic,
-                    "batch": batch_title,
-                    "filename": f"{full_p_title}.pdf"
                 })
 
     return tasks
@@ -93,7 +92,7 @@ async def get_completed_urls(client: Client) -> set:
                     completed.add(url)
     except Exception as e:
         print(f"⚠️ Saved Messages read error: {e}")
-    print(f"📊 Pehle se completed items: {len(completed)}")
+    print(f"📊 Pehle se completed videos: {len(completed)}")
     return completed
 
 async def mark_url_completed(client: Client, url: str):
@@ -143,9 +142,9 @@ async def main():
     print(f"🌐 Health server started on port {os.environ.get('PORT', 8080)}")
 
     tasks = load_tasks_from_json(JSON_FILE)
-    print(f"📊 Total items in JSON: {len(tasks)}")
+    print(f"📊 Total video tasks in JSON: {len(tasks)}")
     if not tasks:
-        print("❌ Koi task nahi mila, check karein json file path.")
+        print("❌ Koi task nahi mila, JSON structure ya path check karein.")
         return
 
     app = Client("feeder_user", api_id=API_ID, api_hash=API_HASH, session_string=SESSION_STRING)
@@ -156,7 +155,7 @@ async def main():
 
         completed_urls = await get_completed_urls(app)
         pending_tasks = [t for t in tasks if t["url"] not in completed_urls]
-        print(f"🚀 Pending items to upload: {len(pending_tasks)}")
+        print(f"🚀 Pending videos to upload: {len(pending_tasks)}")
 
         for idx, task in enumerate(pending_tasks, 1):
             print(f"\n[{idx}/{len(pending_tasks)}] 📤 Sending: {task['filename']}")
@@ -183,7 +182,7 @@ async def main():
 
             await asyncio.sleep(5)
 
-        print("\n🎉 All pending tasks processed!")
+        print("\n🎉 All pending video tasks processed!")
 
 if __name__ == "__main__":
     asyncio.run(main())
