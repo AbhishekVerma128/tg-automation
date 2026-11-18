@@ -27,7 +27,7 @@ API_ID = int(os.environ.get("API_ID", 30029090))
 API_HASH = os.environ.get("API_HASH", "814108c4c350f0fbf4925e3928d3fdb0")
 SESSION_STRING = os.environ.get("SESSION_STRING", "")
 
-BOT_USERNAME = os.environ.get("BOT_USERNAME", "@Notescarrier_url_upload_bot")
+BOT_USERNAME = os.environ.get("BOT_USERNAME", "@notescarrier_video_extractor_bot")
 JSON_FILE = "onlyStationMaster.json"
 TAG_PREFIX = "[STATION_MASTER_DONE]"
 
