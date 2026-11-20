@@ -1,14 +1,20 @@
-import asyncio
-import json
 import os
 import re
+import json
+import asyncio
 import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
+
+# Python 3.12+ / Render event loop guard
+try:
+    asyncio.get_event_loop()
+except RuntimeError:
+    asyncio.set_event_loop(asyncio.new_event_loop())
+
 from pyrogram import Client
 from pyrogram.types import Message
 
-
-# ================= DUMMY HEALTH SERVER (Render / Cloud hosting) =================
+# ================= DUMMY HEALTH SERVER =================
 class HealthHandler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
@@ -18,12 +24,10 @@ class HealthHandler(BaseHTTPRequestHandler):
     def log_message(self, format, *args):
         return
 
-
 def run_health_server():
     port = int(os.environ.get("PORT", 8080))
     server = HTTPServer(("0.0.0.0", port), HealthHandler)
     server.serve_forever()
-
 
 # ================= CONFIGURATION =================
 API_ID = int(os.environ.get("API_ID", 30029090))
@@ -31,14 +35,12 @@ API_HASH = os.environ.get("API_HASH", "814108c4c350f0fbf4925e3928d3fdb0")
 SESSION_STRING = os.environ.get("SESSION_STRING", "")
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "@notescarrier_video_extractor_bot")
-JSON_FILE = "onlyStationMaster.json"
+JSON_FILE = os.environ.get("JSON_FILE", "onlyStationMaster.json")
 TAG_PREFIX = "[STATION_MASTER_DONE]"
-
 
 def clean_filename(name: str) -> str:
     name = re.sub(r'[\\/*?:"<>|]', '', name)
     return " ".join(name.split()).strip()
-
 
 def load_tasks_from_json(filepath: str) -> list:
     if not os.path.exists(filepath):
@@ -48,13 +50,10 @@ def load_tasks_from_json(filepath: str) -> list:
     with open(filepath, "r", encoding="utf-8") as f:
         data = json.load(f)
 
-    # Top-level key fetch (e.g., "local-9")
     batch_data = next(iter(data.values())) if isinstance(data, dict) else {}
-
     batch_info = batch_data.get("info", {})
     batch_title = batch_info.get("title", "Station Master Batch 2026")
 
-    # Topic groups list
     topic_groups = batch_data.get("classes", {}).get("classes", [])
     tasks = []
 
@@ -83,18 +82,12 @@ def load_tasks_from_json(filepath: str) -> list:
 
     return tasks
 
-
 async def get_completed_items(client: Client, bot_username: str) -> tuple[set, set]:
-    """
-    1. Saved Messages ('me') se URL & Filename read karta hai.
-    2. Bot Chat History se pehle upload ho chuki files detect karke duplicate prevent karta hai.
-    """
     completed_urls = set()
     completed_filenames = set()
 
     print("🔄 Progress sync kar rahe hain (Saved Messages + Bot Chat)...")
 
-    # 1. Saved Messages check
     try:
         async for msg in client.get_chat_history("me", limit=2000):
             if msg.text and msg.text.startswith(TAG_PREFIX):
@@ -110,7 +103,6 @@ async def get_completed_items(client: Client, bot_username: str) -> tuple[set, s
     except Exception as e:
         print(f"⚠️ Saved Messages read error: {e}")
 
-    # 2. Bot Chat History check (Pehle se upload ho chuki files)
     try:
         async for msg in client.get_chat_history(bot_username, limit=500):
             text = msg.text or msg.caption or ""
@@ -124,17 +116,13 @@ async def get_completed_items(client: Client, bot_username: str) -> tuple[set, s
     print(f"📊 Pehle se completed videos: {len(completed_urls.union(completed_filenames))}")
     return completed_urls, completed_filenames
 
-
 async def mark_item_completed(client: Client, url: str, filename: str):
-    """URL aur Filename dono ko Saved Messages me store karta hai."""
     try:
         await client.send_message("me", f"{TAG_PREFIX} {url} | {filename}")
     except Exception as e:
         print(f"⚠️ Saved Messages write error: {e}")
 
-
 async def wait_for_bot_response(client: Client, bot_username: str, trigger_msg_id: int, timeout: int = 1800) -> bool:
-    """Uploader bot ke confirmation reply ka wait karta hai."""
     elapsed = 0
     poll_interval = 4
 
@@ -152,15 +140,9 @@ async def wait_for_bot_response(client: Client, bot_username: str, trigger_msg_i
 
                 text = (msg.text or msg.caption or "").lower()
 
-                # Exact keywords matching uploader bot's reply
                 if any(w in text for w in [
-                    "✅",
-                    "successfully uploaded",
-                    "uploaded to channel",
-                    "uploaded successfully",
-                    "upload complete",
-                    "sent to channel",
-                    "done",
+                    "✅", "successfully uploaded", "uploaded to channel",
+                    "uploaded successfully", "upload complete", "sent to channel", "done"
                 ]):
                     return True
 
@@ -172,7 +154,6 @@ async def wait_for_bot_response(client: Client, bot_username: str, trigger_msg_i
 
     print("   ⏳ Timeout: Bot ne 30 min me response nahi diya.")
     return False
-
 
 async def main():
     if not SESSION_STRING:
@@ -196,7 +177,6 @@ async def main():
 
         completed_urls, completed_filenames = await get_completed_items(app, BOT_USERNAME)
 
-        # Agar URL ya Filename pehle se completed hai toh skip hoga
         pending_tasks = [
             t for t in tasks
             if t["url"] not in completed_urls and t["filename"] not in completed_filenames
@@ -230,7 +210,6 @@ async def main():
             await asyncio.sleep(2)
 
         print("\n🎉 All pending video tasks processed!")
-
 
 if __name__ == "__main__":
     asyncio.run(main())
