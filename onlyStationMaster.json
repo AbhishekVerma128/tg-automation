@@ -104,6 +104,7 @@
                                         "quality": "HLS"
                                     }
                                 ],
+                                
                                 "classPdf": [
                                     {
                                         "url": "https://62fef1b1a7c1e12053831978a49ec3e6.r2.cloudflarestorage.com/opsolve-sw-pdf-private/c/14cb751018c3eb80/tenants/selectionway/resources/1792079691760-636f0355-27f6-4b48-9490-16e17b8704d3-physicslight1APP.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=48b03cf60f16d219a797999e3bd05f26%2F20261105%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20261105T060000Z&X-Amz-Expires=601200&X-Amz-Signature=0c66cc3e9e6607b59596f5caae1e03ec2e5fa125166676db5c22382dfe002975&X-Amz-SignedHeaders=host&x-id=GetObject"
